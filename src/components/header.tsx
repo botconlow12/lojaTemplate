@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="w-full relative py-5 px-6">
       <div className="flex justify-between items-center z-20">
-        <Link href="/caixas-brancas">
+        <Link href="/produtos">
           <Image
             src={Logo}
             alt="logo"

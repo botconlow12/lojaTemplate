@@ -55,14 +55,14 @@ export default function InitialPage() {
           </div>
 
           <div className="w-full flex flex-col gap-4">
-            <div className="w-full relative">
+            <a href="/categorias/Bebes" className="w-full relative">
               <Image
                 className="w-full rounded-xl"
                 alt="ct1"
                 src={Ct1}
                 quality={100}
               />
-              <a
+              <p
                 style={{
                   position: 'absolute',
                   left: '50%',
@@ -73,17 +73,17 @@ export default function InitialPage() {
                 className="text-sm text-[#353a42] py-2 px-6 bg-white"
               >
                 Bebês
-              </a>
-            </div>
+              </p>
+            </a>
 
-            <div className="w-full relative">
+            <a href="/categorias/Menina" className="w-full relative">
               <Image
                 className="w-full rounded-xl"
                 alt="ct2"
                 src={Ct2}
                 quality={100}
               />
-              <a
+              <p
                 style={{
                   position: 'absolute',
                   left: '50%',
@@ -94,17 +94,17 @@ export default function InitialPage() {
                 className="text-sm text-[#353a42] py-2 px-6 bg-white"
               >
                 Meninas
-              </a>
-            </div>
+              </p>
+            </a>
 
-            <div className="w-full relative">
+            <a href="/categorias/Menino" className="w-full relative">
               <Image
                 className="w-full rounded-xl"
                 alt="ct3"
                 src={Ct3}
                 quality={100}
               />
-              <a
+              <p
                 style={{
                   position: 'absolute',
                   left: '50%',
@@ -115,8 +115,8 @@ export default function InitialPage() {
                 className="text-sm text-[#353a42] py-2 px-6 bg-white"
               >
                 Meninos
-              </a>
-            </div>
+              </p>
+            </a>
           </div>
 
           <div className="flex flex-col gap-3">

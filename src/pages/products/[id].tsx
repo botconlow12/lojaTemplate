@@ -3,10 +3,12 @@ import { useState } from 'react'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import Head from 'next/head'
+import Link from 'next/link'
 import Slider from 'react-slick'
 import productsData from './products.json'
 import Footer from '@/components/footer'
 import Header from '@/components/header'
+import CartSidebar from '@/components/CartSidebar'
 import { ArrowLeft, CreditCard, Star } from 'phosphor-react'
 import Svg1 from '../../../public/svg1.svg'
 import Svg2 from '../../../public/svg2.svg'
@@ -21,8 +23,10 @@ import Svg10 from '../../../public/svg10.svg'
 import Svg11 from '../../../public/svg11.svg'
 import Svg12 from '../../../public/svg12.svg'
 import Svg13 from '../../../public/svg13.svg'
-import CartSidebar from '@/components/CartSidebar'
-import Link from 'next/link'
+import Im6 from '../../../public/im6.webp'
+import Im7 from '../../../public/im7.webp'
+import Im8 from '../../../public/im8.webp'
+import Gif from '../../../public/gif4.gif'
 
 const poppins = Poppins({
   weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
@@ -144,7 +148,7 @@ export default function ProductPage() {
         ></script>
       </Head>
       <main
-        className={`w-full min-h-screen flex flex-col items-center justify-start text-center mx-auto gap-4 bg-white ${poppins.className}`}
+        className={`w-full min-h-screen flex flex-col items-center justify-start text-center mx-auto gap-8 bg-white ${poppins.className}`}
       >
         <CartSidebar
           isOpen={sidebarOpen}
@@ -208,6 +212,7 @@ export default function ProductPage() {
             className="w-full flex justify-center items-center gap-3 p-5 bg-[#64c45b] text-white rounded-lg shadow-xl"
           >
             <h1 className="text-xl font-bold">Comprar</h1>
+            <CreditCard size={32} color="#fff" />
           </a>
 
           <div className="w-full flex flex-col items-center">
@@ -228,50 +233,103 @@ export default function ProductPage() {
               {isExpanded ? 'Ver menos' : 'Ver mais'}
             </button>
           </div>
-
-          <div className="w-[70%] flex flex-col items-center gap-2">
-            <h1 className="w-full text-center font-bold text-[13px]">
-              FORMAS DE PAGAMENTO
-            </h1>
-            <div className="w-full flex flex-wrap justify-center gap-[15px]">
-              <Image alt="metodo" src={Svg1} quality={100} width={40} />
-              <Image alt="metodo" src={Svg2} quality={100} width={40} />
-              <Image alt="metodo" src={Svg3} quality={100} width={40} />
-              <Image alt="metodo" src={Svg4} quality={100} width={40} />
-              <Image alt="metodo" src={Svg5} quality={100} width={40} />
-              <Image alt="metodo" src={Svg6} quality={100} width={40} />
-              <Image alt="metodo" src={Svg7} quality={100} width={40} />
-              <Image alt="metodo" src={Svg8} quality={100} width={40} />
-              <Image alt="metodo" src={Svg9} quality={100} width={40} />
-              <Image alt="metodo" src={Svg10} quality={100} width={40} />
-            </div>
-          </div>
-          <div className="w-full h-[1px] bg-[#e3e3e3]" />
-          <div className="w-full flex flex-col items-center gap-2">
-            <h1 className="w-full font-bold text-[13px]">LOJA VERIFICADA</h1>
-            <div className="w-full flex justify-start gap-[15px]">
-              <Image
-                alt="metodo"
-                src={Svg11}
-                quality={100}
-                className="w-full"
-              />
-              <Image
-                alt="metodo"
-                src={Svg12}
-                quality={100}
-                className="w-full"
-              />
-              <Image
-                alt="metodo"
-                src={Svg13}
-                quality={100}
-                className="w-full"
-              />
-            </div>
-          </div>
-          <div className="w-full h-[1px] bg-[#e3e3e3]" />
         </div>
+
+        <div className="w-full bg-[#fff0df] px-4 py-8">
+          <h1 className="font-sans text-xl text-[#ec6608] font-bold mb-6">
+            Diferenciais
+          </h1>
+          <div className="flex justify-center flex-wrap gap-2">
+            <p className="py-[5px] px-[15px] bg-white rounded-full text-sm">
+              Conforto
+            </p>
+            <p className="py-[5px] px-[15px] bg-white rounded-full text-sm">
+              Fácil de lavar
+            </p>
+            <p className="py-[5px] px-[15px] bg-white rounded-full text-sm">
+              Leveza
+            </p>
+            <p className="py-[5px] px-[15px] bg-white rounded-full text-sm">
+              Segurança
+            </p>
+            <p className="py-[5px] px-[15px] bg-white rounded-full text-sm">
+              Flexibilidade
+            </p>
+          </div>
+        </div>
+
+        <h1 className="font-sans text-xl text-[#ec6608] font-bold">
+          Só a Bibi tem
+        </h1>
+
+        <div className="w-[90%]">
+          <h1 className="font-sans text-xl font-bold mb-3">
+            Palmilha Fisioflex
+          </h1>
+          <p className="text-sm mb-3">
+            Palmilha fofinha, desenvolvida em parceria com médicos e
+            especialistas. Proporciona a sensação comprovada que bibi é
+            confortável como andar descalço.
+          </p>
+          <Image alt="img" src={Im6} quality={100} />
+        </div>
+
+        <div className="w-[90%]">
+          <h1 className="font-sans text-xl font-bold mb-3">Praticidade</h1>
+          <p className="text-sm mb-3">
+            Calçados livres de cadarços e amarrações, confeccionados com
+            materiais que se ajustam no pezinho e facilitam o calce.
+          </p>
+          <Image alt="img" src={Im7} quality={100} />
+        </div>
+
+        <div className="w-[90%]">
+          <h1 className="font-sans text-xl font-bold mb-3">Proteção Tóxica</h1>
+          <p className="text-sm mb-3">
+            Todos os produtos são livres de substâncias tóxicas. Por aqui,
+            utilizamos somente materiais que estejam de acordo com os padrões
+            internacionais quanto a substâncias tóxicas.
+          </p>
+          <Image alt="img" src={Im8} quality={100} />
+        </div>
+
+        <div className="w-full bg-[#ede5db] px-4 py-8">
+          <h1 className="font-sans text-xl font-bold mb-3">Propósito</h1>
+          <p className="text-sm mb-3">
+            Há mais de 70 anos a gente se coloca no lugar das crianças para
+            fazer o bem, porque, fazendo o bem para elas, elas fazem o bem para
+            o mundo.
+          </p>
+          <Image alt="img" src={Gif} quality={100} />
+        </div>
+
+        <div className="w-[70%] flex flex-col items-center gap-2">
+          <h1 className="w-full text-center font-bold text-[13px]">
+            FORMAS DE PAGAMENTO
+          </h1>
+          <div className="w-full flex flex-wrap justify-center gap-[15px]">
+            <Image alt="metodo" src={Svg1} quality={100} width={40} />
+            <Image alt="metodo" src={Svg2} quality={100} width={40} />
+            <Image alt="metodo" src={Svg3} quality={100} width={40} />
+            <Image alt="metodo" src={Svg4} quality={100} width={40} />
+            <Image alt="metodo" src={Svg5} quality={100} width={40} />
+            <Image alt="metodo" src={Svg6} quality={100} width={40} />
+            <Image alt="metodo" src={Svg7} quality={100} width={40} />
+            <Image alt="metodo" src={Svg8} quality={100} width={40} />
+            <Image alt="metodo" src={Svg9} quality={100} width={40} />
+            <Image alt="metodo" src={Svg10} quality={100} width={40} />
+          </div>
+        </div>
+
+        <div className="w-[90%] flex flex-col items-center gap-2">
+          <h1 className="w-full font-bold text-[13px]">LOJA VERIFICADA</h1>
+          <div className="w-full flex justify-start gap-[15px]">
+            <Image alt="metodo" src={Svg11} quality={100} className="w-full" />
+            <Image alt="metodo" src={Svg12} quality={100} className="w-full" />
+            <Image alt="metodo" src={Svg13} quality={100} className="w-full" />
+          </div>
+        </div>
+
         <Footer />
       </main>
     </>
