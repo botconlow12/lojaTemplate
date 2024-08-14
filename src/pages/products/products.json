@@ -2,6 +2,7 @@
   "products": [
     {
       "id": 1,
+      "stock" : 1,
       "title": "Tênis Infantil Bibi Roller 2.0 Preto com Fire de Dino",
       "rate": 72,
       "price": "67,90",
@@ -22,6 +23,7 @@
     },
     {
       "id": 2,
+      "stock" : 1,
       "title": "Tênis Infantil Bibi Jogging Rosa com Branco",
       "rate": 96,
       "price": "89,90",
@@ -41,6 +43,7 @@
     },
     {
       "id": 3,
+      "stock" : 1,
       "title": "Tênis Infantil Bibi Afeto Joy II Branco e Azul com Tira ",
       "rate": 54,
       "price": "12,90",
