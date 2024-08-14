@@ -1,0 +1,279 @@
+import { Poppins } from 'next/font/google'
+import { useState } from 'react'
+import { useRouter } from 'next/router'
+import Image from 'next/image'
+import Head from 'next/head'
+import Slider from 'react-slick'
+import productsData from './products.json'
+import Footer from '@/components/footer'
+import Header from '@/components/header'
+import { ArrowLeft, CreditCard, Star } from 'phosphor-react'
+import Svg1 from '../../../public/svg1.svg'
+import Svg2 from '../../../public/svg2.svg'
+import Svg3 from '../../../public/svg3.svg'
+import Svg4 from '../../../public/svg4.svg'
+import Svg5 from '../../../public/svg5.svg'
+import Svg6 from '../../../public/svg6.svg'
+import Svg7 from '../../../public/svg7.svg'
+import Svg8 from '../../../public/svg8.svg'
+import Svg9 from '../../../public/svg9.svg'
+import Svg10 from '../../../public/svg10.svg'
+import Svg11 from '../../../public/svg11.svg'
+import Svg12 from '../../../public/svg12.svg'
+import Svg13 from '../../../public/svg13.svg'
+import CartSidebar from '@/components/CartSidebar'
+import Link from 'next/link'
+
+const poppins = Poppins({
+  weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+})
+
+export default function ProductPage() {
+  const [isExpanded, setIsExpanded] = useState(false)
+  const router = useRouter()
+  const { id } = router.query
+  // const { addToCart } = useCart()
+  const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [selectedOption, setSelectedOption] = useState<string | null>(null)
+
+  const productData = [...productsData.products].find(
+    (product) => product.id === parseInt(id as string),
+  )
+  if (!productData) {
+    return <p>Vídeo não encontrado</p>
+  }
+
+  if (!productData.images || productData.images.length === 0) {
+    return <p>Imagens não disponíveis para este produto</p>
+  }
+
+  // const handleAddToCart = () => {
+  //   addToCart({
+  //     id: productData.id,
+  //     title: productData.title,
+  //     price: parseFloat(productData.price.replace(',', '.')),
+  //     quantity: 1,
+  //     image: productData.bannerImg,
+  //   })
+  //   setSidebarOpen(true) // Abre o sidebar ao adicionar ao carrinho
+  // }
+
+  const handleCheckout = () => {
+    if (!selectedOption) {
+      alert('Selecione um tamanho antes de continuar')
+      return
+    }
+
+    // Lógica para redirecionar para o checkout, por exemplo:
+    router.push('/checkout') // Ajuste o caminho para o checkout conforme necessário
+  }
+
+  const toggleDescription = () => {
+    setIsExpanded(!isExpanded)
+  }
+
+  const renderOpcoes = () => {
+    const handleOptionClick = (option: string) => {
+      setSelectedOption(option)
+    }
+
+    if (productData.tipo === 'numero') {
+      return (
+        <div className="flex flex-wrap gap-2">
+          {productData.opcoes.map((numero, index) => (
+            <button
+              key={index}
+              onClick={() => handleOptionClick(numero)}
+              className={`py-2 px-3 border-2 rounded-full font-semibold ${selectedOption === numero ? 'border-[#ec6608] underline' : 'border-gray-300'}`}
+            >
+              {numero}
+            </button>
+          ))}
+        </div>
+      )
+    } else if (productData.tipo === 'tamanho') {
+      return (
+        <div className="flex flex-wrap gap-2">
+          {productData.opcoes.map((tamanho, index) => (
+            <button
+              key={index}
+              onClick={() => handleOptionClick(tamanho)}
+              className={`border-[1.6px] p-2 rounded-xl text-gray-700 font-semibold ${selectedOption === tamanho ? 'border-[#6900cc] bg-slate-100' : 'border-gray-300'}`}
+            >
+              {tamanho}
+            </button>
+          ))}
+        </div>
+      )
+    } else if (productData.tipo === 'unico') {
+      return (
+        <div>
+          <button className="border-[1.6px] border-[#6900cc] p-2 rounded-xl text-gray-700 bg-slate-100 font-semibold">
+            {productData.opcoes[0]}
+          </button>
+        </div>
+      )
+    }
+  }
+
+  const settings = {
+    arrows: false,
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    speed: 1500,
+    pauseOnHover: true,
+    adaptiveHeight: true,
+  }
+
+  return (
+    <>
+      <Head>
+        <title>{productData.title}</title>
+        <meta name="Teste" content="Teste" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/logo.svg" />
+        <script
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+          async
+          defer
+        ></script>
+      </Head>
+      <main
+        className={`w-full min-h-screen flex flex-col items-center justify-start text-center mx-auto gap-4 bg-white ${poppins.className}`}
+      >
+        <CartSidebar
+          isOpen={sidebarOpen}
+          onClose={() => setSidebarOpen(false)}
+        />
+
+        <Header />
+        <div className="w-[90%] flex flex-col items-center justify-center gap-6">
+          <Link
+            href="/produtos"
+            className="w-full flex items-center gap-2 font-bold text-base underline"
+          >
+            <ArrowLeft size={22} weight="bold" />
+            VOLTAR
+          </Link>
+          <div className="w-full flex flex-col gap-4">
+            <h1 className="text-2xl text-left font-bold">
+              {productData.title}
+            </h1>
+            <Slider {...settings} className="w-full">
+              {productData.images.map((image, index) => (
+                <img
+                  key={index}
+                  src={image}
+                  alt={`Imagem ${index + 1}`}
+                  className="max-w-full h-auto"
+                />
+              ))}
+            </Slider>
+          </div>
+          <div className="w-full h-[1px] bg-[#e3e3e3]" />
+          <div className="w-full flex flex-col items-start justify-center gap-3">
+            <div className="flex items-center gap-2">
+              <div className="flex gap-1">
+                <Star size={16} weight="fill" color="#ffd700" />
+                <Star size={16} weight="fill" color="#ffd700" />
+                <Star size={16} weight="fill" color="#ffd700" />
+                <Star size={16} weight="fill" color="#ffd700" />
+                <Star size={16} weight="fill" color="#ffd700" />
+                <Star size={16} weight="fill" color="#ffd700" />
+              </div>
+              <p>5.0 ({productData.rate}) Avaliações</p>
+            </div>
+            <h1 className="text-[#282828] text-3xl font-bold">
+              R$ {productData.price}
+            </h1>
+            <div className="flex items-center gap-2">
+              <CreditCard size={18} />
+              <p className="text-[15px]">
+                ou até <b>{productData.parcelamento}</b>
+              </p>
+            </div>
+            <h1>
+              Tamanho:{' '}
+              <span className="font-bold">{selectedOption || 'Selecione'}</span>
+            </h1>
+            {renderOpcoes()}
+          </div>
+          <a
+            onClick={handleCheckout}
+            className="w-full flex justify-center items-center gap-3 p-5 bg-[#64c45b] text-white rounded-lg shadow-xl"
+          >
+            <h1 className="text-xl font-bold">Comprar</h1>
+          </a>
+
+          <div className="w-full flex flex-col items-center">
+            <p className="font-sans text-xl text-[#ec6608] font-bold mb-3">
+              DESCRIÇÃO
+            </p>
+            <div
+              className={`text-left font-light transition-all duration-300 ${
+                isExpanded ? 'h-auto' : 'h-[100px] overflow-hidden'
+              }`}
+            >
+              {productData.desc}
+            </div>
+            <button
+              onClick={toggleDescription}
+              className="text-[#ec6608] underline mt-2"
+            >
+              {isExpanded ? 'Ver menos' : 'Ver mais'}
+            </button>
+          </div>
+
+          <div className="w-[70%] flex flex-col items-center gap-2">
+            <h1 className="w-full text-center font-bold text-[13px]">
+              FORMAS DE PAGAMENTO
+            </h1>
+            <div className="w-full flex flex-wrap justify-center gap-[15px]">
+              <Image alt="metodo" src={Svg1} quality={100} width={40} />
+              <Image alt="metodo" src={Svg2} quality={100} width={40} />
+              <Image alt="metodo" src={Svg3} quality={100} width={40} />
+              <Image alt="metodo" src={Svg4} quality={100} width={40} />
+              <Image alt="metodo" src={Svg5} quality={100} width={40} />
+              <Image alt="metodo" src={Svg6} quality={100} width={40} />
+              <Image alt="metodo" src={Svg7} quality={100} width={40} />
+              <Image alt="metodo" src={Svg8} quality={100} width={40} />
+              <Image alt="metodo" src={Svg9} quality={100} width={40} />
+              <Image alt="metodo" src={Svg10} quality={100} width={40} />
+            </div>
+          </div>
+          <div className="w-full h-[1px] bg-[#e3e3e3]" />
+          <div className="w-full flex flex-col items-center gap-2">
+            <h1 className="w-full font-bold text-[13px]">LOJA VERIFICADA</h1>
+            <div className="w-full flex justify-start gap-[15px]">
+              <Image
+                alt="metodo"
+                src={Svg11}
+                quality={100}
+                className="w-full"
+              />
+              <Image
+                alt="metodo"
+                src={Svg12}
+                quality={100}
+                className="w-full"
+              />
+              <Image
+                alt="metodo"
+                src={Svg13}
+                quality={100}
+                className="w-full"
+              />
+            </div>
+          </div>
+          <div className="w-full h-[1px] bg-[#e3e3e3]" />
+        </div>
+        <Footer />
+      </main>
+    </>
+  )
+}

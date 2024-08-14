@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Tênis Infantil Bibi Roller 2.0 Preto com Fire de Dino",
+      "rate": 72,
+      "price": "67,90",
+      "parcelamento": "3x de R$ 63,30",
+      "tipo": "numero",
+      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
+      "desc": "Descubra o tênis infantil masculino perfeito para as brincadeiras do dia a dia!Nosso modelo na cor preta, com aplicação de dino aviador, apresenta um design moderno, ideal para acompanhar as crianças em todas as suas aventuras.Confeccionado em elastano, um material respirável e de fácil limpeza, o tênis oferece um ajuste excelente ao pé, garantindo conforto durante todo o uso.O solado inovador com rolamentos segue os movimentos do pé, oferecendo um design ainda mais atual e criativo. Possui a palmilha Fisioflex, que é macia e proporciona a sensação de andar descalço, assegurando conforto extremo para os pequenos.Este tênis é a escolha ideal para pais que buscam qualidade, conforto e um visual moderno para seus pequenos.",
+      "href": "/products/1",
+      "bannerImg": "/prod1/prod1.webp",
+      "images": [
+        "/prod1/prod1.webp",
+        "/prod1/prod2.webp",
+        "/prod1/prod3.webp"
+      ],
+      "category": "Menino",
+      "subcategory": "Tênis",
+      "sections": ["Lançamentos", "OS BÁSICOS PARA TODAS AS OCASIÕES!"]
+    },
+    {
+      "id": 2,
+      "title": "Tênis Infantil Bibi Jogging Rosa com Branco",
+      "rate": 96,
+      "price": "89,90",
+      "parcelamento": "3x de R$ 63,30",
+      "tipo": "numero",
+      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
+      "desc": "Tênis Infantil Feminino Bibi Jogging: Conforto e Estilo para as Pequenas! Este modelo é confeccionado em material respirável com detalhes em camurça, garantindo um visual moderno e estiloso para todas as meninas. Além disso, o Tênis Jogging é projetado para proporcionar praticidade, com fácil calce e simplicidade na hora da limpeza. O solado destaca-se pela combinação da tecnologia Bplus, que oferece conforto inigualável e peças emborrachadas, proporcionando segurança extra para as crianças durante suas atividades. Outro diferencial é a palmilha Fisioflex, que é extremamente fofinha e proporciona a sensação de andar descalço, oferecendo um conforto excepcional para os pés. Ao escolher o tênis infantil Bibi Jogging, você estará garantindo um produto de alta qualidade, que une moda, praticidade e conforto, perfeito para acompanhar as crianças em todas as suas aventuras diárias.",
+      "href": "/products/2",
+      "bannerImg": "/prod2/prod1.webp",
+      "images": [
+        "/prod2/prod1.webp",
+        "/prod2/prod2.webp"
+      ],
+      "category": "Menina",
+      "subcategory": "Tênis",
+      "sections": ["AS MELHORES PROMOÇÕES DA BIBI"]
+    },
+    {
+      "id": 3,
+      "title": "Tênis Infantil Bibi Afeto Joy II Branco e Azul com Tira ",
+      "rate": 54,
+      "price": "12,90",
+      "parcelamento": "3x de R$ 63,30",
+      "tipo": "numero",
+      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
+      "desc": "O tênis infantil masculino Bibi Afeto Joy II é um calçado versátil para bebês, ideal para todas as ocasiões. Completamente confeccionado em couro, este tênis oferece proteção e conforto aos pezinhos dos pequenos, enquanto o fechamento em tira facilita o calce e permite o desenvolvimento natural dos pés. O forro em nylon proporciona um toque suave, mantendo os pés frescos e confortáveis durante todo o dia. A palmilha Fisioflex de couro adiciona uma camada de maciez e conforto, proporcionando uma sensação de caminhar descalço, permitindo que os bebês explorem o mundo de maneira confortável e segura. O tênis infantil masculino Bibi Afeto Joy II é a combinação perfeita de estilo, conforto e qualidade para os primeiros passos dos pequenos.",
+      "href": "/products/3",
+      "bannerImg": "/prod3/prod1.webp",
+      "images": [
+        "/prod3/prod1.webp"
+      ],
+      "category": "Bebê",
+      "subcategory": "Tênis",
+      "sections": ["Lançamentos", "OS BÁSICOS PARA TODAS AS OCASIÕES!"]
+    }
+  ]
+}
