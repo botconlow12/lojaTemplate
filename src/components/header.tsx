@@ -1,3 +1,5 @@
+// components/header.tsx
+
 import { useState } from 'react'
 import Image from 'next/image'
 import Logo from '../../public/logo.svg'
@@ -66,20 +68,21 @@ export function Header() {
           </button>
         </div>
         <div className="flex flex-col gap-4 items-start p-4">
+          {/* Meninos */}
           <div className="w-full">
             <button
-              className="w-full flex justify-between items-center text-lg font-semibold "
-              onClick={() => toggleCategory('Meninos')}
+              className="w-full flex justify-between items-center text-lg font-semibold"
+              onClick={() => toggleCategory('meninos')}
             >
               Meninos
-              {expandedCategory === 'Meninos' ? (
-                <CaretDown size={20} className="mr-2" />
+              {expandedCategory === 'meninos' ? (
+                <CaretDown size={20} />
               ) : (
-                <CaretRight size={20} className="mr-2" />
+                <CaretRight size={20} />
               )}
             </button>
-            {expandedCategory === 'Meninos' && (
-              <div className="text-left">
+            {expandedCategory === 'meninos' && (
+              <div className="text-left pl-4">
                 <Link href="/meninos/tudo" className="block py-1">
                   Tudo
                 </Link>
@@ -93,20 +96,21 @@ export function Header() {
             )}
           </div>
 
+          {/* Meninas */}
           <div className="w-full">
             <button
-              className="w-full flex justify-between items-center text-lg font-semibold "
-              onClick={() => toggleCategory('Meninas')}
+              className="w-full flex justify-between items-center text-lg font-semibold"
+              onClick={() => toggleCategory('meninas')}
             >
               Meninas
-              {expandedCategory === 'Meninas' ? (
-                <CaretDown size={20} className="mr-2" />
+              {expandedCategory === 'meninas' ? (
+                <CaretDown size={20} />
               ) : (
-                <CaretRight size={20} className="mr-2" />
+                <CaretRight size={20} />
               )}
             </button>
-            {expandedCategory === 'Meninas' && (
-              <div className="text-left">
+            {expandedCategory === 'meninas' && (
+              <div className="text-left pl-4">
                 <Link href="/meninas/tudo" className="block py-1">
                   Tudo
                 </Link>
@@ -120,20 +124,21 @@ export function Header() {
             )}
           </div>
 
+          {/* Bebês */}
           <div className="w-full">
             <button
               className="w-full flex justify-between items-center text-lg font-semibold"
-              onClick={() => toggleCategory('Bebes')}
+              onClick={() => toggleCategory('bebes')}
             >
               Bebês
-              {expandedCategory === 'Bebes' ? (
-                <CaretDown size={20} className="mr-2" />
+              {expandedCategory === 'bebes' ? (
+                <CaretDown size={20} />
               ) : (
-                <CaretRight size={20} className="mr-2" />
+                <CaretRight size={20} />
               )}
             </button>
-            {expandedCategory === 'Bebes' && (
-              <div className="text-left">
+            {expandedCategory === 'bebes' && (
+              <div className="text-left pl-4">
                 <Link href="/bebes/tudo" className="block py-1">
                   Tudo
                 </Link>

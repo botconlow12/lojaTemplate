@@ -1,7 +1,7 @@
 import { Poppins } from 'next/font/google'
 import Head from 'next/head'
 import { Header } from '@/components/header'
-import ProdList from '@/components/prodList'
+import { ProdList } from '@/components/prodList'
 import Footer from '@/components/footer'
 import Image from 'next/image'
 import {
@@ -39,7 +39,7 @@ export default function InitialPage() {
       >
         <Header />
         <Carroussel />
-        <div className="w-full flex justify-center bg-[#f5f5f5] px-4 pt-4 pb-8">
+        <div className="w-full bg-[#f5f5f5] px-4 pt-4 pb-8">
           <Carroussel3 />
         </div>
         <div className="w-[90%] flex flex-col gap-8 mt-8">

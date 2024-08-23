@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import Slider from 'react-slick'
-import { Truck } from 'phosphor-react'
+import Slider, { Settings } from 'react-slick'
+import { ArrowsLeftRight, Truck } from 'phosphor-react'
 import Banner1 from '../../public/banner1.gif'
 import Banner2 from '../../public/banner2.webp'
 import Banner3 from '../../public/banner3.webp'
@@ -45,14 +45,28 @@ export function Carroussel3() {
     slidesToShow: 1,
     slidesToScroll: 1,
     adaptiveHeight: true,
-  }
+    autoplay: true,
+    autoplaySpeed: 10000,
+    speed: 1500,
+    pauseOnHover: true,
+    centerMode: true,
+    centerPadding: '24px',
+  } as Settings
   return (
-    <Slider {...settings} className="w-full flex justify-center items-center">
-      <div className="w-full flex justify-center">
-        <div className=" w-max flex items-center gap-3 py-[10px] px-5 bg-[#ec6608] text-white rounded-[6.5rem]">
+    <Slider {...settings} className="w-full">
+      <div className="w-full !flex justify-center">
+        <div className="!flex flex-shrink-0 max-w-[240px] items-center gap-3 py-[10px] px-5 bg-[#ec6608] text-white rounded-[6.5rem]">
           <Truck size={20} />
           <p className="text-sm font-medium underline">
             Frete Grátis é na Bibi
+          </p>
+        </div>
+      </div>
+      <div className="w-full !flex justify-center">
+        <div className="!flex flex-shrink-0 max-w-[240px] items-center gap-3 py-[10px] px-5 bg-white text-white rounded-[6.5rem]">
+          <ArrowsLeftRight size={20} color="#ec6608" />
+          <p className="text-sm text-black font-medium">
+            Primeira troca Grátis
           </p>
         </div>
       </div>
