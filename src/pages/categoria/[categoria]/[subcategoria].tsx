@@ -7,7 +7,7 @@ import { Header } from '@/components/header'
 import { ProdList2 } from '@/components/prodList'
 import Footer from '@/components/footer'
 import { Carroussel4 } from '@/components/carrousel'
-import productsData from '../products/products.json'
+import productsData from '../../products/products.json'
 
 const poppins = Poppins({
   weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
