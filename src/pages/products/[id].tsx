@@ -8,7 +8,7 @@ import Slider from 'react-slick'
 import productsData from './products.json'
 import Footer from '@/components/footer'
 import { Header } from '@/components/header'
-import CartSidebar from '@/components/CartSidebar'
+// import CartSidebar from '@/components/CartSidebar'
 import { ArrowLeft, CreditCard, Star } from 'phosphor-react'
 import Svg1 from '../../../public/svg1.svg'
 import Svg2 from '../../../public/svg2.svg'
@@ -38,7 +38,7 @@ export default function ProductPage() {
   const router = useRouter()
   const { id } = router.query
   // const { addToCart } = useCart()
-  const [sidebarOpen, setSidebarOpen] = useState(false)
+  // const [sidebarOpen, setSidebarOpen] = useState(false)
   const [selectedOption, setSelectedOption] = useState<string | null>(null)
 
   const productData = [...productsData.products].find(
@@ -150,10 +150,10 @@ export default function ProductPage() {
       <main
         className={`w-full min-h-screen flex flex-col items-center justify-start text-center mx-auto gap-8 bg-white ${poppins.className}`}
       >
-        <CartSidebar
+        {/* <CartSidebar
           isOpen={sidebarOpen}
           onClose={() => setSidebarOpen(false)}
-        />
+        /> */}
 
         <Header />
         <div className="w-[90%] flex flex-col items-center justify-center gap-6">
