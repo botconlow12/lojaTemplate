@@ -1,8 +1,11 @@
-import Header from '@/components/header'
-import { Inter } from 'next/font/google'
+import { Header2 } from '@/components/header'
+import { Poppins } from 'next/font/google'
 import Head from 'next/head'
 
-const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins({
+  weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+})
 
 export default function Home() {
   return (
@@ -22,32 +25,32 @@ export default function Home() {
         ></script>
       </Head>
       <main
-        className={`w-full min-h-screen flex flex-col items-center justify-start gap-12 bg-[#e5ded3] ${inter.className}`}
+        className={`w-full min-h-screen flex flex-col items-center justify-start gap-12 bg-[#e5ded3] ${poppins.className}`}
       >
-        <Header />
-        <div className="w-[95%] flex flex-col justify-center items-center text-center p-8 bg-white rounded-lg shadow-xl">
-          <h1 className="text-3xl font-bold text-brown mb-5">
-            Bem-vindo ao Desafio Da Cacau Show!
+        <Header2 />
+        <div className="w-[95%] flex flex-col justify-center items-center text-center px-7 py-8 bg-white rounded-lg shadow-xl">
+          <h1 className="text-4xl font-bold text-brown mb-5">
+            Bem-vindo ao Desafio Da Bibi
           </h1>
           <p className="text-lg text-black mb-4">
-            Participe do nosso <b>emocionante desafio</b> sobre <b>chocolate</b>{' '}
-            e ganhe acesso as nossas <b>Caixas Brancas</b>!
+            Participe do nosso <b>emocionante desafio</b> e desbloqueie
+            descontos <b>exclusivos</b>.
           </p>
           <p className="text-lg text-black mb-4">
-            Ao completar o desafio com sucesso, você terá acesso a uma{' '}
-            <b>oferta exclusiva</b> nas <u>caixas brancas</u> e ajudará a
-            arrecadar dinheiro para <b>doações</b>.
+            Ao completar o desafio <b>com sucesso,</b> você{' '}
+            <u>não só ganha descontos,</u> mas também contribui para{' '}
+            <b>causas sociais</b>!
           </p>
           <p className="text-lg text-black mb-4">
-            <b>50% do valor gerado</b> com as vendas será destinado a{' '}
-            <b>causas sociais</b>.
+            <b>50% do valor</b> gerado com as vendas será destinado a{' '}
+            <b>iniciativas que fazem a diferença.</b>
           </p>
 
           <a
-            href="/quiz"
+            href="/desafios"
             className="w-full px-6 py-3 bg-brown text-xl text-white text-center font-semibold rounded hover:bg-brown-dark transition-colors"
           >
-            COMEÇAR QUIZ!
+            COMEÇAR DESAFIO!
           </a>
         </div>
       </main>

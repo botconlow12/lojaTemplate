@@ -1,6 +1,12 @@
-import Header from '@/components/header'
+import { Poppins } from 'next/font/google'
+import { Header2 } from '@/components/header'
 import Quiz from '@/components/quiz'
 import Head from 'next/head'
+
+const poppins = Poppins({
+  weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+})
 
 export default function QuizPage() {
   return (
@@ -19,10 +25,14 @@ export default function QuizPage() {
           defer
         ></script>
       </Head>
-      <div className="w-full min-h-screen flex flex-col items-center justify-start gap-12 bg-brown-light">
-        <Header />
-        <Quiz />
-      </div>
+      <main
+        className={`w-full min-h-screen flex flex-col items-center justify-start gap-12 bg-[#e5ded3] ${poppins.className}`}
+      >
+        <div className="w-full min-h-screen flex flex-col items-center justify-start gap-12 bg-brown-light">
+          <Header2 />
+          <Quiz />
+        </div>
+      </main>
     </>
   )
 }

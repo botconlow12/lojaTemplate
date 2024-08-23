@@ -1,6 +1,6 @@
 import { Poppins } from 'next/font/google'
 import Head from 'next/head'
-import Header from '@/components/header'
+import { Header } from '@/components/header'
 import ProdList from '@/components/prodList'
 import Footer from '@/components/footer'
 import Image from 'next/image'

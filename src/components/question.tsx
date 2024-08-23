@@ -18,7 +18,7 @@ const Question: FC<QuestionProps> = ({
 }) => {
   return (
     <div className="w-full max-w-md mx-auto">
-      <h2 className="text-2xl font-bold text-brown mb-4">{question}</h2>
+      <h2 className="text-2xl font-bold mb-4">{question}</h2>
       <div className="flex flex-col gap-2">
         {options.map((option, index) => (
           <button
