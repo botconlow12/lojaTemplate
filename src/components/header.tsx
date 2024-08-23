@@ -151,3 +151,11 @@ export function Header() {
     </div>
   )
 }
+
+export function Header2() {
+  return (
+    <div className="w-full flex justify-center items-center bg-white py-5 px-7">
+      <Image src={Logo} alt="logo" width={90} quality={100} />
+    </div>
+  )
+}

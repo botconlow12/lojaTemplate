@@ -1,6 +1,6 @@
 import { useCart } from '@/context/CartContext'
 import Head from 'next/head'
-import Header from '@/components/header'
+import { Header } from '@/components/header'
 import Footer from '@/components/footer'
 import Image from 'next/image'
 import { Trash } from 'phosphor-react'

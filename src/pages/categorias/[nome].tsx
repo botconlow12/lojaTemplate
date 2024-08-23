@@ -1,7 +1,7 @@
 import { Poppins } from 'next/font/google'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import Header from '@/components/header'
+import { Header } from '@/components/header'
 import ProdList from '@/components/prodList'
 import Footer from '@/components/footer'
 import { Carroussel4 } from '@/components/carrousel'
