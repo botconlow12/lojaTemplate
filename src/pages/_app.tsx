@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
-import { CartProvider } from '@/context/CartContext'
+// import { CartProvider } from '@/context/CartContext'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Head from 'next/head'
@@ -30,9 +30,7 @@ export default function App({ Component, pageProps }: AppProps) {
           rel="stylesheet"
         />
       </Head>
-      <CartProvider>
-        <Component {...pageProps} />
-      </CartProvider>
+      <Component {...pageProps} />
     </>
   )
 }
