@@ -1,6 +1,6 @@
 // components/header.tsx
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Logo from '../../public/logo.svg'
 import {
@@ -12,10 +12,17 @@ import {
   CaretDown,
 } from 'phosphor-react'
 import Link from 'next/link'
+import { products } from '../pages/products/products.json'
+
+interface CategoriesProps {
+  title: string
+  subcategories: string[]
+}
 
 export function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null)
+  const [categories, setCategories] = useState<CategoriesProps[]>([])
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen)
@@ -24,6 +31,38 @@ export function Header() {
   const toggleCategory = (category: string) => {
     setExpandedCategory(expandedCategory === category ? null : category)
   }
+
+  const getCategories = () => {
+    const categories = products.map((product) => product.category)
+    const uniqueCategories = categories.filter(
+      (value, index, self) => self.indexOf(value) === index,
+    )
+
+    return uniqueCategories
+  }
+
+  const getSubcategories = (category: string) => {
+    const subcategories = products
+      .filter((product) => product.category === category)
+      .map((product) => product.subcategory)
+
+    // Without new Set, the array will have repeated values
+    const uniqueSubcategories = subcategories.filter(
+      (value, index, self) => self.indexOf(value) === index,
+    )
+
+    return uniqueSubcategories
+  }
+
+  useEffect(() => {
+    const categories = getCategories()
+    const categoriesWithSubcategories = categories.map((category) => ({
+      title: category,
+      subcategories: getSubcategories(category),
+    }))
+
+    setCategories(categoriesWithSubcategories)
+  }, [])
 
   return (
     <div className="w-full h-[118px]">
@@ -68,89 +107,41 @@ export function Header() {
           </button>
         </div>
         <div className="flex flex-col gap-4 items-start p-4">
-          {/* Meninos */}
-          <div className="w-full">
-            <button
-              className="w-full flex justify-between items-center text-lg font-semibold"
-              onClick={() => toggleCategory('meninos')}
-            >
-              Meninos
-              {expandedCategory === 'meninos' ? (
-                <CaretDown size={20} />
-              ) : (
-                <CaretRight size={20} />
+          {categories.map((category) => (
+            <div className="w-full" key={category.title}>
+              <button
+                className="w-full flex justify-between items-center text-lg font-semibold"
+                onClick={() => toggleCategory(category.title)}
+              >
+                {category.title}
+                {expandedCategory === category.title ? (
+                  <CaretDown size={20} />
+                ) : (
+                  <CaretRight size={20} />
+                )}
+              </button>
+              {expandedCategory === category.title && (
+                <div className="text-left pl-4">
+                  {/* Link "Tudo" direciona para a URL da categoria */}
+                  <Link
+                    href={`/categoria/${category.title.toLowerCase()}`}
+                    className="block py-1"
+                  >
+                    Tudo
+                  </Link>
+                  {category.subcategories.map((subcategory) => (
+                    <Link
+                      href={`/categoria/${category.title.toLowerCase()}/${subcategory.toLowerCase()}`}
+                      className="block py-1"
+                      key={subcategory}
+                    >
+                      {subcategory}
+                    </Link>
+                  ))}
+                </div>
               )}
-            </button>
-            {expandedCategory === 'meninos' && (
-              <div className="text-left pl-4">
-                <Link href="/meninos/tudo" className="block py-1">
-                  Tudo
-                </Link>
-                <Link href="/meninos/tenis" className="block py-1">
-                  Tênis
-                </Link>
-                <Link href="/meninos/sandalia" className="block py-1">
-                  Sandália
-                </Link>
-              </div>
-            )}
-          </div>
-
-          {/* Meninas */}
-          <div className="w-full">
-            <button
-              className="w-full flex justify-between items-center text-lg font-semibold"
-              onClick={() => toggleCategory('meninas')}
-            >
-              Meninas
-              {expandedCategory === 'meninas' ? (
-                <CaretDown size={20} />
-              ) : (
-                <CaretRight size={20} />
-              )}
-            </button>
-            {expandedCategory === 'meninas' && (
-              <div className="text-left pl-4">
-                <Link href="/meninas/tudo" className="block py-1">
-                  Tudo
-                </Link>
-                <Link href="/meninas/tenis" className="block py-1">
-                  Tênis
-                </Link>
-                <Link href="/meninas/sandalia" className="block py-1">
-                  Sandália
-                </Link>
-              </div>
-            )}
-          </div>
-
-          {/* Bebês */}
-          <div className="w-full">
-            <button
-              className="w-full flex justify-between items-center text-lg font-semibold"
-              onClick={() => toggleCategory('bebes')}
-            >
-              Bebês
-              {expandedCategory === 'bebes' ? (
-                <CaretDown size={20} />
-              ) : (
-                <CaretRight size={20} />
-              )}
-            </button>
-            {expandedCategory === 'bebes' && (
-              <div className="text-left pl-4">
-                <Link href="/bebes/tudo" className="block py-1">
-                  Tudo
-                </Link>
-                <Link href="/bebes/tenis" className="block py-1">
-                  Tênis
-                </Link>
-                <Link href="/bebes/sandalia" className="block py-1">
-                  Sandália
-                </Link>
-              </div>
-            )}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

@@ -1,49 +1,48 @@
-// pages/[categoria]/[subcategoria].tsx
+// pages/[categoria].tsx
 
 import { Poppins } from 'next/font/google'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import productsData from '../products/products.json'
 import { Header } from '@/components/header'
 import { ProdList2 } from '@/components/prodList'
-import { Carroussel4 } from '@/components/carrousel'
 import Footer from '@/components/footer'
+import { Carroussel4 } from '@/components/carrousel'
+import productsData from '../products/products.json'
+
 const poppins = Poppins({
   weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin'],
 })
 
-export default function SubcategoryPage() {
+export default function CategoryPage() {
   const router = useRouter()
-  const { categoria, subcategoria } = router.query
+  const { categoria } = router.query
 
-  if (!categoria || !subcategoria) return null
+  if (!categoria) return null
 
-  // Verificar se a subcategoria existe dentro da categoria
+  // Verificar se o nome corresponde a uma categoria ou seção
   const isCategory = productsData.products.some(
     (product) => product.category.toLowerCase() === categoria,
   )
-  const isSubcategory = productsData.products.some(
-    (product) =>
-      product.category.toLowerCase() === categoria &&
-      product.subcategory.toLowerCase() === subcategoria,
+  const isSection = productsData.products.some((product) =>
+    product.sections
+      .map((section) => section.toLowerCase())
+      .includes(categoria as string),
   )
 
-  if (!isCategory || !isSubcategory) {
+  if (!isCategory && !isSection) {
     return (
-      <p className="text-center text-xl">
-        Subcategoria não encontrada na categoria {categoria}
-      </p>
+      <p className="text-center text-xl">Categoria ou Seção não encontrada</p>
     )
   }
 
   return (
     <>
       <Head>
-        <title>Calçados Bibi | {subcategoria}</title>
+        <title>Calçados Bibi | {categoria}</title>
         <meta
           name="description"
-          content={`Veja todos os produtos da subcategoria ${subcategoria} na categoria ${categoria}`}
+          content={`Veja todos os produtos da ${isCategory ? 'categoria' : 'seção'} ${categoria}`}
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.svg" />
@@ -61,12 +60,12 @@ export default function SubcategoryPage() {
 
         <div className="flex flex-col gap-3 w-full px-4">
           <h2 className="text-lg font-medium text-left">
-            Produtos na subcategoria: {subcategoria} da categoria: {categoria}
+            Produtos na {isCategory ? 'categoria' : 'seção'}: {categoria}
           </h2>
 
           <ProdList2
-            category={categoria as string}
-            subcategory={subcategoria as string}
+            category={isCategory ? (categoria as string) : undefined}
+            section={isSection ? (categoria as string) : undefined}
           />
 
           <Carroussel4 />

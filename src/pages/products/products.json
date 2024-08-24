@@ -18,7 +18,7 @@
         "/prod1/prod3.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": ["Lançamentos"]
     },
     {
@@ -41,8 +41,8 @@
         "/prod4/prod6.webp",
         "/prod4/prod7.webp"
       ],
-      "category": "meninos",
-      "subcategory": "tenis",
+      "category": "Bebes",
+      "subcategory": "Tenis",
       "sections": ["Lançamentos"]
     },
     {
@@ -66,7 +66,7 @@
         "/prod5/prod7.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": ["Lançamentos"]
     },
     {
@@ -87,7 +87,7 @@
         "/prod6/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": ["OS BÁSICOS PARA TODAS AS OCASIÕES!"]
     },
     {
@@ -107,7 +107,7 @@
         "/prod7/prod3.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": ["OS BÁSICOS PARA TODAS AS OCASIÕES!"]
     },
     {
@@ -128,7 +128,7 @@
         "/prod8/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": ["OS BÁSICOS PARA TODAS AS OCASIÕES!"]
     },
     {
@@ -149,7 +149,7 @@
         "/prod9/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": ["AS MELHORES PROMOÇÕES DA BIBI"]
     },
     {
@@ -169,7 +169,7 @@
         "/prod10/prod3.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": ["AS MELHORES PROMOÇÕES DA BIBI"]
     },
     {
@@ -191,7 +191,7 @@
         "/prod11/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": ["AS MELHORES PROMOÇÕES DA BIBI"]
     },
     {
@@ -213,7 +213,7 @@
         "/prod12/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -235,7 +235,7 @@
         "/prod13/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -257,7 +257,7 @@
         "/prod14/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -279,7 +279,7 @@
         "/prod15/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -302,7 +302,7 @@
         "/prod16/prod5.webp"
       ],
       "category": "meninos",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -324,7 +324,7 @@
         "/prod17/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -348,7 +348,7 @@
         "/prod18/prod6.webp"
       ],
       "category": "meninos",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -372,7 +372,7 @@
         "/prod19/prod6.webp"
       ],
       "category": "meninos",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -391,34 +391,10 @@
         "/prod20/prod2.webp",
         "/prod20/prod3.webp",
         "/prod20/prod3.webp",
-        "/prod20/prod4.webp",
-        "/prod20/prod5.webp",
-        "/prod20/prod6.webp"
-      ],
-      "category": "meninos",
-      "subcategory": "botas",
-      "sections": []
-    },
-    {
-      "id": 17,
-      "title": "Bota Infantil Masculina Bibi Roller 2.0 Drop Azul 1155096",
-      "rate": 96,
-      "price": "289,90",
-      "parcelamento": "3x de R$ 63,30",
-      "tipo": "numero",
-      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30","31", "32"],
-      "desc": "Desenvolvida com rolamentos que acompanham os movimentos dos pés das crianças, possui um design mais atual e criativo. A tecnologia Drop da Bibi está presente na Bota Infantil, ela que repele a água e deixa o suor sair, mantendo os pés sequinhos nos dias mais úmidos ou de chuva. A bota infantil é a combinação perfeita para o lookinho do seu pequeno!",
-      "href": "/products/17",
-      "bannerImg": "/prod20/prod1.webp",
-      "images": [
-        "/prod20/prod1.webp",
-        "/prod20/prod2.webp",
-        "/prod20/prod3.webp",
-        "/prod20/prod3.webp",
         "/prod20/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -462,7 +438,7 @@
         "/prod22/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "chinelos",
+      "subcategory": "Chinelos",
       "sections": []
     },
     {
@@ -484,7 +460,7 @@
         "/prod23/prod4.webp"
       ],
       "category": "meninos",
-      "subcategory": "chinelos",
+      "subcategory": "Chinelos",
       "sections": []
     },
     {
@@ -572,7 +548,7 @@
         "/prod2/prod5.webp"
       ],
       "category": "menina",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -596,7 +572,7 @@
         "/prod27/prod7.webp"
       ],
       "category": "menina",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -620,7 +596,7 @@
         "/prod28/prod7.webp"
       ],
       "category": "menina",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -644,7 +620,7 @@
         "/prod29/prod7.webp"
       ],
       "category": "menina",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -665,7 +641,7 @@
         "/prod30/prod4.webp"
       ],
       "category": "menina",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -685,7 +661,7 @@
         "/prod31/prod3.webp"   
       ],
       "category": "menina",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -705,7 +681,7 @@
         "/prod32/prod3.webp"     
       ],
       "category": "menina",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -726,7 +702,7 @@
         "/prod34/prod4.webp"   
       ],
       "category": "menina",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -745,7 +721,7 @@
         "/prod33/prod2.webp",
         "/prod33/prod3.webp"      ],
       "category": "menina",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -766,7 +742,7 @@
         "/prod35/prod4.webp"
       ],
       "category": "menina",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -787,7 +763,7 @@
         "/prod36/prod4.webp"
       ],
       "category": "menina",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     },
     {
@@ -808,7 +784,7 @@
         "/prod37/prod4.webp"
       ],
       "category": "menina",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -826,7 +802,7 @@
         "/prod38/prod1.webp"
       ],
       "category": "menina",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -844,7 +820,7 @@
         "/prod39/prod1.webp"
       ],
       "category": "menina",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -865,7 +841,7 @@
         "/prod40/prod4.webp"
       ],
       "category": "menina",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -886,7 +862,7 @@
         "/prod41/prod4.webp"
       ],
       "category": "menina",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -907,7 +883,7 @@
         "/prod42/prod4.webp"
       ],
       "category": "menina",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -929,7 +905,7 @@
         "/prod43/prod5.webp"
       ],
       "category": "menina",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -951,7 +927,7 @@
         "/prod44/prod5.webp"
       ],
       "category": "menina",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -973,7 +949,7 @@
         "/prod45/prod5.webp"
       ],
       "category": "menina",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -994,7 +970,7 @@
         "/prod46/prod4.webp"
       ],
       "category": "menina",
-      "subcategory": "botas",
+      "subcategory": "Botas",
       "sections": []
     },
     {
@@ -1013,7 +989,7 @@
         "/prod3/prod1.webp"
       ],
       "category": "Bebes",
-      "subcategory": "tenis",
+      "subcategory": "Tenis",
       "sections": []
     }
   ]
