@@ -41,9 +41,11 @@ export default function ProductPage() {
   // const [sidebarOpen, setSidebarOpen] = useState(false)
   const [selectedOption, setSelectedOption] = useState<string | null>(null)
 
-  const productData = [...productsData.products].find(
+  // Encontre o produto com base no ID da URL
+  const productData = productsData.products.find(
     (product) => product.id === parseInt(id as string),
   )
+
   if (!productData) {
     return <p>Vídeo não encontrado</p>
   }
@@ -63,14 +65,17 @@ export default function ProductPage() {
   //   setSidebarOpen(true) // Abre o sidebar ao adicionar ao carrinho
   // }
 
+  // Função para redirecionar para o link do checkout
   const handleCheckout = () => {
     if (!selectedOption) {
       alert('Selecione um tamanho antes de continuar')
       return
     }
 
-    // Lógica para redirecionar para o checkout, por exemplo:
-    router.push(productData.link) // Ajuste o caminho para o checkout conforme necessário
+    // Certifique-se de que o link está correto
+    console.log('Redirecionando para:', productData.link)
+
+    window.open(productData.link, '_blank') // Abre o link em uma nova aba
   }
 
   const toggleDescription = () => {
