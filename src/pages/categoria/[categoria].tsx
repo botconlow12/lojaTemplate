@@ -68,7 +68,12 @@ export default function CategoryPage() {
             section={isSection ? (categoria as string) : undefined}
           />
 
-          <Carroussel4 />
+          <div className="w-full flex flex-col gap-3">
+            <h2 className="text-lg font-medium text-left">
+              NAVEGUE NAS CATEGORIAS
+            </h2>
+            <Carroussel4 />
+          </div>
         </div>
 
         <Footer />
