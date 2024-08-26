@@ -5,10 +5,10 @@ export default function Document() {
   return (
     <Html lang="pt-BR">
       <Head>
-        {/* <script
+        <script
           disable-devtool-auto
           src="https://cdn.jsdelivr.net/npm/disable-devtool"
-        /> */}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `

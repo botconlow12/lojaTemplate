@@ -61,6 +61,7 @@ const Quiz = () => {
     selectedOption: string | null
   }>({ isCorrect: false, selectedOption: null })
   const [showErrorModal, setShowErrorModal] = useState(false)
+  const [completionSoundPlayed, setCompletionSoundPlayed] = useState(false)
 
   const handleAnswer = (selectedOption: string) => {
     const isCorrect = questions[currentQuestion].answer === selectedOption
@@ -69,12 +70,23 @@ const Quiz = () => {
     setTimeout(() => {
       if (isCorrect) {
         if (currentQuestion === questions.length - 1) {
+          // Reproduzir o som de conclusão do quiz somente se ainda não tiver sido tocado
+          if (!completionSoundPlayed) {
+            const completionSound = new Audio('/completion.mp3')
+            completionSound.play()
+            setCompletionSoundPlayed(true)
+          }
           setQuizCompleted(true)
         } else {
+          // Reproduzir o som de resposta correta
+          const correctSound = new Audio('/correct.mp3')
+          correctSound.play()
           setCurrentQuestion(currentQuestion + 1)
         }
         setShowErrorModal(false)
       } else {
+        const failSound = new Audio('/fail.mp3')
+        failSound.play()
         setShowErrorModal(true)
       }
       setFeedback({ isCorrect: false, selectedOption: null })
