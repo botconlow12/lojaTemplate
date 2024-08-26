@@ -236,13 +236,24 @@ export default function ProductPage() {
                 -{Math.round(discountPercentage)}%
               </p>
             </div>
+            <div className="flex items-center gap-2">
+              <Image
+                alt="pix"
+                src={Pix}
+                quality={100}
+                className="w-[16px] invert"
+              />
+              <p className="text-[15px]">
+                <b>À vista no pix</b>
+              </p>
+            </div>
             <h1>
               Tamanho:{' '}
               <span className="font-bold">{selectedOption || 'Selecione'}</span>
             </h1>
             {renderOpcoes()}
           </div>
-          <Link href={productData.link}>
+          <Link className="w-full" href={productData.link}>
             <button className="w-full flex justify-center items-center gap-3 p-5 bg-[#64c45b] text-white rounded-lg shadow-xl">
               <h1 className="text-xl font-bold">Comprar</h1>
               <Image alt="pix" src={Pix} quality={100} width={22} />
