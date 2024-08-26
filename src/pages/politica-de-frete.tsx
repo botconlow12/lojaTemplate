@@ -33,7 +33,7 @@ export default function PoliticaPrivacidade() {
           <h1 className="text-4xl font-bold text-brown mb-3">Institucional</h1>
           <h1 className="text-2xl font-bold mb-5">Política de privacidade</h1>
           <p className="font-bold">Frete do site: </p>
-          <p className="text-lg">
+          <p>
             O frete se torna grátis em pedidos com ticket acima de R$ 50,90, com
             as seguintes regras: -O valor final do seu pedido será considerado
             para garantir o frete grátis, já com a aplicação de cupons, caso

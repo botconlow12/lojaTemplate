@@ -34,7 +34,7 @@ export default function PoliticaPrivacidade() {
           <h1 className="text-2xl text-center font-bold mb-5">
             Política de trocas e devoluções
           </h1>
-          <p className="text-lg">
+          <p>
             Esperamos que nunca seja necessário você trocar o seu calçado da
             Bibi, mas sabemos que eventualmente isso pode acontecer. Nestes
             casos, confira nossa política de trocas e devoluções, e veja como

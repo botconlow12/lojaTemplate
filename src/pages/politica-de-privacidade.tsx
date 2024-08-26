@@ -32,7 +32,7 @@ export default function PoliticaPrivacidade() {
         <div className="w-[95%] flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold text-brown mb-3">Institucional</h1>
           <h1 className="text-2xl font-bold mb-5">Política de privacidade</h1>
-          <p className="text-lg">
+          <p>
             Nós, da Bibi, queremos oferecer a você a melhor experiência de
             consumo possível. Quando você acessa nosso site e nossas lojas, nós
             coletamos os dados pessoais que você compartilha conosco para tornar
