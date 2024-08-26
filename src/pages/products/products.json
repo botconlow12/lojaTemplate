@@ -164,7 +164,7 @@
       ],
       "category": "Meninos",
       "subcategory": "Tenis",
-      "sections": []
+      "sections": ["AS MELHORES PROMOÇÕES DA BIBI"]
     },
     {
       "id": 9,
@@ -185,7 +185,7 @@
       ],
       "category": "Meninos",
       "subcategory": "Tenis",
-      "sections": []
+      "sections": ["AS MELHORES PROMOÇÕES DA BIBI"]
     },
     {
       "id": 10,
@@ -278,7 +278,7 @@
     },
     {
       "id": 14,
-      "title": "Bota Infantil de Couro Bibi Marrom Agility Mini II",
+      "title": "Bota Infantil de Couro Bibi Preta Agility Mini II",
       "rate": 96,
       "price": "289,90",
       "parcelamento": "3x de R$ 63,30",

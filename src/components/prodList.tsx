@@ -31,6 +31,32 @@ export function ProdList({ category, section }: ProdListProps) {
     }))
   }
 
+  const calculateDiscountedPrice = (price: number): number => {
+    if (price <= 100) {
+      return price * 0.7 // 30% de desconto
+    } else if (price > 100 && price <= 150) {
+      return price * 0.47 // 53% de desconto
+    } else if (price > 150 && price <= 200) {
+      return price * 0.35 // 65% de desconto
+    } else if (price > 200 && price <= 250) {
+      return price * 0.28 // 72% de desconto
+    } else if (price > 250 && price <= 300) {
+      return price * 0.23 // 77% de desconto
+    } else if (price > 300 && price <= 350) {
+      return price * 0.25 // 75% de desconto
+    } else if (price > 350 && price <= 400) {
+      return price * 0.3 // 70% de desconto
+    }
+    return price // Sem desconto para valores acima de 400 reais
+  }
+
+  const calculateDiscountPercentage = (
+    originalPrice: number,
+    discountedPrice: number,
+  ): number => {
+    return ((originalPrice - discountedPrice) / originalPrice) * 100
+  }
+
   const settings = {
     arrows: false,
     dots: true,
@@ -42,54 +68,77 @@ export function ProdList({ category, section }: ProdListProps) {
 
   return (
     <Slider {...settings} className="w-full">
-      {filteredProducts.map((product) => (
-        <Link
-          key={product.id}
-          href={`/products/${product.id}` || '/produtos'}
-          className="px-1 flex flex-col rounded-lg text-[#333]"
-          style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }}
-        >
-          <div className="relative">
-            <Image
-              alt={product.title}
-              src={product.bannerImg}
-              quality={100}
-              className="w-full h-auto rounded-t-lg"
-              width={640}
-              height={640}
-            />
-            <div
-              className="absolute right-2 top-2 p-1 rounded-full bg-[#f7f7f7] z-20 cursor-pointer"
-              onClick={() => toggleHeart(product.id)}
-            >
-              <HeartStraight
-                size={18}
-                weight={filledHearts[product.id] ? 'fill' : 'light'}
-                color={filledHearts[product.id] ? '#eb2c44' : '#333'}
+      {filteredProducts.map((product) => {
+        const originalPrice = parseFloat(product.price)
+        const discountPrice = calculateDiscountedPrice(originalPrice)
+        const discountPercentage = calculateDiscountPercentage(
+          originalPrice,
+          discountPrice,
+        )
+
+        return (
+          <Link
+            key={product.id}
+            href={`/products/${product.id}` || '/produtos'}
+            className="px-1 flex flex-col rounded-lg text-[#333]"
+            style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }}
+          >
+            <div className="relative">
+              <Image
+                alt={product.title}
+                src={product.bannerImg}
+                quality={100}
+                className="w-full h-auto rounded-t-lg"
+                width={640}
+                height={640}
               />
+              <div
+                className="absolute right-2 top-2 p-1 rounded-full bg-[#f7f7f7] z-20 cursor-pointer"
+                onClick={() => toggleHeart(product.id)}
+              >
+                <HeartStraight
+                  size={18}
+                  weight={filledHearts[product.id] ? 'fill' : 'light'}
+                  color={filledHearts[product.id] ? '#eb2c44' : '#333'}
+                />
+              </div>
+              <div className="flex items-center gap-[2px] absolute right-2 bottom-2 px-2 py-1 rounded-full bg-[#f7f7f7] z-20 cursor-pointer">
+                <p className="text-xs">Comprar</p>
+                <PlusCircle size={15} color="#37c76c" />
+              </div>
             </div>
-            <div className="flex items-center gap-[2px] absolute right-2 bottom-2 px-2 py-1 rounded-full bg-[#f7f7f7] z-20 cursor-pointer">
-              <p className="text-xs">Comprar</p>
-              <PlusCircle size={15} color="#37c76c" />
-            </div>
-          </div>
 
-          <div className="py-3 px-2 text-left">
-            <h1 className="text-sm text-left font-light text-[#333] line-clamp-2">
-              {product.title}
-            </h1>
-
-            <div className="mt-4">
-              <h1 className="w-full text-[#333] font-medium">
-                R${product.price}
+            <div className="py-3 px-2 text-left">
+              <h1 className="text-sm text-left font-light text-[#333] line-clamp-2">
+                {product.title}
               </h1>
-              <p className="text-xs font-light">
-                ou até {product.parcelamento}
-              </p>
+
+              <div className="mt-4">
+                <h1 className="w-full text-[#333] font-medium line-through">
+                  R$
+                  {originalPrice.toLocaleString('pt-BR', {
+                    minimumFractionDigits: 2,
+                  })}
+                  {/* Preço original */}
+                </h1>
+
+                <div className="flex items-center justify-start gap-2">
+                  <h1 className="text-[#37c76c] font-medium">
+                    R$
+                    {discountPrice.toLocaleString('pt-BR', {
+                      minimumFractionDigits: 2,
+                    })}
+                    {/* Exibe o preço com desconto */}
+                  </h1>
+                  <p className="text-xs font-bold text-white bg-brown p-[5px] rounded-lg">
+                    -{Math.round(discountPercentage)}%
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-        </Link>
-      ))}
+          </Link>
+        )
+      })}
     </Slider>
   )
 }
@@ -127,60 +176,109 @@ export function ProdList2({ category, subcategory, section }: ProdListProps) {
     }))
   }
 
+  const calculateDiscountedPrice = (price: number): number => {
+    if (price <= 100) {
+      return price * 0.7 // 30% de desconto
+    } else if (price > 100 && price <= 150) {
+      return price * 0.47 // 53% de desconto
+    } else if (price > 150 && price <= 200) {
+      return price * 0.35 // 65% de desconto
+    } else if (price > 200 && price <= 250) {
+      return price * 0.28 // 72% de desconto
+    } else if (price > 250 && price <= 300) {
+      return price * 0.23 // 77% de desconto
+    } else if (price > 300 && price <= 350) {
+      return price * 0.25 // 75% de desconto
+    } else if (price > 350 && price <= 400) {
+      return price * 0.3 // 70% de desconto
+    }
+    return price // Sem desconto para valores acima de 400 reais
+  }
+
+  const calculateDiscountPercentage = (
+    originalPrice: number,
+    discountedPrice: number,
+  ): number => {
+    return ((originalPrice - discountedPrice) / originalPrice) * 100
+  }
+
   return (
     <div className="w-full grid grid-cols-2 gap-4">
-      {filteredProducts.map((product) => (
-        <Link
-          key={product.id}
-          href={`/products/${product.id}` || '/produtos'}
-          className="w-full h-auto flex flex-col items-center gap-2"
-        >
-          <div
-            className="h-full flex flex-col rounded-lg text-[#333]"
-            style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }}
+      {filteredProducts.map((product) => {
+        const originalPrice = parseFloat(product.price)
+        const discountPrice = calculateDiscountedPrice(originalPrice)
+        const discountPercentage = calculateDiscountPercentage(
+          originalPrice,
+          discountPrice,
+        )
+
+        return (
+          <Link
+            key={product.id}
+            href={`/products/${product.id}` || '/produtos'}
+            className="w-full h-auto flex flex-col items-center gap-2"
           >
-            <div className="relative">
-              <Image
-                alt={product.title}
-                src={product.bannerImg}
-                quality={100}
-                className="w-full h-auto rounded-t-lg"
-                width={640}
-                height={640}
-              />
-              <div
-                className="absolute right-2 top-2 p-1 rounded-full bg-[#f7f7f7] z-20 cursor-pointer"
-                onClick={() => toggleHeart(product.id)}
-              >
-                <HeartStraight
-                  size={18}
-                  weight={filledHearts[product.id] ? 'fill' : 'light'}
-                  color={filledHearts[product.id] ? '#eb2c44' : '#333'}
+            <div
+              className="h-full flex flex-col rounded-lg text-[#333]"
+              style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }}
+            >
+              <div className="relative">
+                <Image
+                  alt={product.title}
+                  src={product.bannerImg}
+                  quality={100}
+                  className="w-full h-auto rounded-t-lg"
+                  width={640}
+                  height={640}
                 />
+                <div
+                  className="absolute right-2 top-2 p-1 rounded-full bg-[#f7f7f7] z-20 cursor-pointer"
+                  onClick={() => toggleHeart(product.id)}
+                >
+                  <HeartStraight
+                    size={18}
+                    weight={filledHearts[product.id] ? 'fill' : 'light'}
+                    color={filledHearts[product.id] ? '#eb2c44' : '#333'}
+                  />
+                </div>
+                <div className="flex items-center gap-[2px] absolute right-2 bottom-2 px-2 py-1 rounded-full bg-[#f7f7f7] z-20 cursor-pointer">
+                  <p className="text-xs">Comprar</p>
+                  <PlusCircle size={15} color="#37c76c" />
+                </div>
               </div>
-              <div className="flex items-center gap-[2px] absolute right-2 bottom-2 px-2 py-1 rounded-full bg-[#f7f7f7] z-20 cursor-pointer">
-                <p className="text-xs">Comprar</p>
-                <PlusCircle size={15} color="#37c76c" />
-              </div>
-            </div>
 
-            <div className="py-3 px-2 text-left">
-              <h1 className="text-sm text-left font-light text-[#333] line-clamp-2">
-                {product.title}
-              </h1>
-
-              <div className="mt-4">
-                <h1 className="w-full text-[#333] font-medium">
-                  R${product.price}
+              <div className="py-3 px-2 text-left">
+                <h1 className="text-sm text-left font-light text-[#333] line-clamp-2">
+                  {product.title}
                 </h1>
-                <p className="text-xs font-light">
-                  ou até {product.parcelamento}
-                </p>
+
+                <div className="mt-4">
+                  <h1 className="w-full text-[#333] font-medium line-through">
+                    R$
+                    {originalPrice.toLocaleString('pt-BR', {
+                      minimumFractionDigits: 2,
+                    })}
+                    {/* Preço original */}
+                  </h1>
+
+                  <div className="flex items-center justify-start gap-2">
+                    <h1 className="text-[#37c76c] font-medium">
+                      R$
+                      {discountPrice.toLocaleString('pt-BR', {
+                        minimumFractionDigits: 2,
+                      })}
+                      {/* Exibe o preço com desconto */}
+                    </h1>
+                    <p className="text-xs font-bold text-white bg-brown p-[6px] rounded-lg">
+                      -{Math.round(discountPercentage)}%
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </Link>
-      ))}
+          </Link>
+        )
+      })}
     </div>
   )
 }

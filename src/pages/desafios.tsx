@@ -12,7 +12,7 @@ export default function QuizPage() {
   return (
     <>
       <Head>
-        <title>Quiz - Cacau Show</title>
+        <title>Desafio - Bibi</title>
         <meta
           name="description"
           content="Sua compra foi confirmada com sucesso! Aproveite suas Caixas Brancas e lembre-se que 50% do valor gerado foi destinado a causas sociais."

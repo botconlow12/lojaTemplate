@@ -3,13 +3,12 @@ import { useState } from 'react'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import Head from 'next/head'
-import Link from 'next/link'
 import Slider from 'react-slick'
 import productsData from './products.json'
 import Footer from '@/components/footer'
 import { Header } from '@/components/header'
 // import CartSidebar from '@/components/CartSidebar'
-import { ArrowLeft, CreditCard, Star } from 'phosphor-react'
+import { CreditCard, Star } from 'phosphor-react'
 import Svg1 from '../../../public/svg1.svg'
 import Svg2 from '../../../public/svg2.svg'
 import Svg3 from '../../../public/svg3.svg'
@@ -121,6 +120,39 @@ export default function ProductPage() {
     }
   }
 
+  const calculateDiscountedPrice = (price: number): number => {
+    if (price <= 100) {
+      return price * 0.7 // 30% de desconto
+    } else if (price > 100 && price <= 150) {
+      return price * 0.47 // 53% de desconto
+    } else if (price > 150 && price <= 200) {
+      return price * 0.35 // 65% de desconto
+    } else if (price > 200 && price <= 250) {
+      return price * 0.28 // 72% de desconto
+    } else if (price > 250 && price <= 300) {
+      return price * 0.23 // 77% de desconto
+    } else if (price > 300 && price <= 350) {
+      return price * 0.25 // 75% de desconto
+    } else if (price > 350 && price <= 400) {
+      return price * 0.3 // 70% de desconto
+    }
+    return price // Sem desconto para valores acima de 400 reais
+  }
+
+  const calculateDiscountPercentage = (
+    originalPrice: number,
+    discountedPrice: number,
+  ): number => {
+    return ((originalPrice - discountedPrice) / originalPrice) * 100
+  }
+
+  const originalPrice = parseFloat(productData.price)
+  const discountPrice = calculateDiscountedPrice(originalPrice)
+  const discountPercentage = calculateDiscountPercentage(
+    originalPrice,
+    discountPrice,
+  )
+
   const settings = {
     arrows: false,
     dots: false,
@@ -157,13 +189,6 @@ export default function ProductPage() {
 
         <Header />
         <div className="w-[90%] flex flex-col items-center justify-center gap-6">
-          <Link
-            href="/produtos"
-            className="w-full flex items-center gap-2 font-bold text-base underline"
-          >
-            <ArrowLeft size={22} weight="bold" />
-            VOLTAR
-          </Link>
           <div className="w-full flex flex-col gap-4">
             <h1 className="text-2xl text-left font-bold">
               {productData.title}
@@ -192,13 +217,23 @@ export default function ProductPage() {
               </div>
               <p>5.0 ({productData.rate}) Avaliações</p>
             </div>
-            <h1 className="text-[#282828] text-3xl font-bold">
-              R$ {productData.price}
+            <h1 className="text-xl font-bold line-through">
+              R$
+              {originalPrice.toLocaleString('pt-BR', {
+                minimumFractionDigits: 2,
+              })}
             </h1>
-            <div className="flex items-center gap-2">
-              <CreditCard size={18} />
-              <p className="text-[15px]">
-                ou até <b>{productData.parcelamento}</b>
+
+            <div className="flex items-center justify-start gap-2">
+              <h1 className="text-3xl font-bold">
+                R$
+                {discountPrice.toLocaleString('pt-BR', {
+                  minimumFractionDigits: 2,
+                })}
+                {/* Exibe o preço com desconto */}
+              </h1>
+              <p className="text-xs font-bold text-white bg-brown p-[6px] rounded-lg">
+                -{Math.round(discountPercentage)}%
               </p>
             </div>
             <h1>

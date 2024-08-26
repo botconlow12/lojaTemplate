@@ -6,13 +6,13 @@ import Banner2 from '../../public/banner2.webp'
 import Banner3 from '../../public/banner3.webp'
 import Banner4 from '../../public/banner4.webp'
 import Im1 from '../../public/im1.webp'
-import Im2 from '../../public/im2.gif'
+import Im2 from '../../public/im2.webp'
 import Im3 from '../../public/im3.webp'
 import Im4 from '../../public/im4.webp'
-import Im5 from '../../public/im5.webp'
 import Gif1 from '../../public/gif1.gif'
 import Gif2 from '../../public/gif2.gif'
 import Gif3 from '../../public/gif3.gif'
+import Link from 'next/link'
 
 export function Carroussel() {
   const settings = {
@@ -85,7 +85,7 @@ export function Carroussel4() {
   }
   return (
     <Slider {...settings} className="">
-      <div className="w-full relative pr-3">
+      <Link href="/categoria/meninos/tenis" className="w-full relative pr-3">
         <Image
           className="w-full rounded-md"
           alt="ct3"
@@ -104,9 +104,12 @@ export function Carroussel4() {
         >
           Tênis
         </a>
-      </div>
+      </Link>
 
-      <div className="w-full relative pr-3">
+      <Link
+        href="/categoria/meninas/sandalias"
+        className="w-full relative pr-3"
+      >
         <Image
           className="w-full rounded-md"
           alt="ct3"
@@ -123,11 +126,11 @@ export function Carroussel4() {
           }}
           className="text-sm text-[#353a42] py-1 px-6 bg-white"
         >
-          Luz
+          Sandálias
         </a>
-      </div>
+      </Link>
 
-      <div className="w-full relative pr-3">
+      <Link href="/categoria/meninos/chinelos" className="w-full relative pr-3">
         <Image
           className="w-full rounded-md"
           alt="ct3"
@@ -144,11 +147,11 @@ export function Carroussel4() {
           }}
           className="text-sm text-[#353a42] py-1 px-6 bg-white"
         >
-          Botas
+          Chinelos
         </a>
-      </div>
+      </Link>
 
-      <div className="w-full relative pr-3">
+      <Link href="/categoria/meninos/botas" className="w-full relative pr-3">
         <Image
           className="w-full rounded-md"
           alt="ct3"
@@ -165,30 +168,9 @@ export function Carroussel4() {
           }}
           className="text-sm text-[#353a42] py-1 px-6 bg-white"
         >
-          Sandálias
+          Botas
         </a>
-      </div>
-
-      <div className="w-full relative pr-3">
-        <Image
-          className="w-full rounded-md"
-          alt="ct3"
-          src={Im5}
-          quality={100}
-        />
-        <a
-          style={{
-            position: 'absolute',
-            left: '50%',
-            transform: 'translate(-50%,0)',
-            bottom: '1rem',
-            borderRadius: '100px',
-          }}
-          className="text-sm text-[#353a42] py-1 px-6 bg-white"
-        >
-          Chinelos
-        </a>
-      </div>
+      </Link>
     </Slider>
   )
 }

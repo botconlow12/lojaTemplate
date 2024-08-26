@@ -60,9 +60,9 @@ export default function SubcategoryPage() {
       >
         <Header />
 
-        <div className="flex flex-col gap-3 w-full px-4">
-          <h2 className="text-lg font-medium text-left">
-            Produtos na subcategoria: {subcategoria} da categoria: {categoria}
+        <div className="flex flex-col gap-5 w-full px-4">
+          <h2 className="text-lg font-medium text-left uppercase">
+            {subcategoria} de {categoria}
           </h2>
 
           <ProdList2

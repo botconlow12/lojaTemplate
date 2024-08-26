@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cacau Show</title>
+        <title>Calçados Bibi | Fazer o bem, um passinho por vez</title>
         <meta
           name="description"
           content="Participe do nosso quiz sobre chocolate e ajude a arrecadar dinheiro para doações. 50% do valor gerado será destinado a causas sociais!"

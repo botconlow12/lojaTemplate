@@ -8,7 +8,7 @@ export default function Success() {
   return (
     <>
       <Head>
-        <title>Compra Confirmada - Cacau Show</title>
+        <title>Compra Confirmada - Bibi</title>
         <meta
           name="description"
           content="Sua compra foi confirmada com sucesso! Aproveite suas Caixas Brancas e lembre-se que 50% do valor gerado foi destinado a causas sociais."

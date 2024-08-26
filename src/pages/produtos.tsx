@@ -55,7 +55,7 @@ export default function InitialPage() {
           </div>
 
           <div className="w-full flex flex-col gap-4">
-            <a href="/categorias/Bebes" className="w-full relative">
+            <a href="/categoria/bebes" className="w-full relative">
               <Image
                 className="w-full rounded-xl"
                 alt="ct1"
@@ -76,7 +76,7 @@ export default function InitialPage() {
               </p>
             </a>
 
-            <a href="/categorias/Menina" className="w-full relative">
+            <a href="/categoria/meninas" className="w-full relative">
               <Image
                 className="w-full rounded-xl"
                 alt="ct2"
@@ -97,7 +97,7 @@ export default function InitialPage() {
               </p>
             </a>
 
-            <a href="/categorias/Menino" className="w-full relative">
+            <a href="/categoria/meninos" className="w-full relative">
               <Image
                 className="w-full rounded-xl"
                 alt="ct3"
