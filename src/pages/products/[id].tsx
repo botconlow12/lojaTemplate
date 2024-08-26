@@ -9,19 +9,6 @@ import Footer from '@/components/footer'
 import { Header } from '@/components/header'
 // import CartSidebar from '@/components/CartSidebar'
 import { Star } from 'phosphor-react'
-import Svg1 from '../../../public/svg1.svg'
-import Svg2 from '../../../public/svg2.svg'
-import Svg3 from '../../../public/svg3.svg'
-import Svg4 from '../../../public/svg4.svg'
-import Svg5 from '../../../public/svg5.svg'
-import Svg6 from '../../../public/svg6.svg'
-import Svg7 from '../../../public/svg7.svg'
-import Svg8 from '../../../public/svg8.svg'
-import Svg9 from '../../../public/svg9.svg'
-import Svg10 from '../../../public/svg10.svg'
-import Svg11 from '../../../public/svg11.svg'
-import Svg12 from '../../../public/svg12.svg'
-import Svg13 from '../../../public/svg13.svg'
 import Pix from '../../../public/pix.svg'
 import Im6 from '../../../public/im6.webp'
 import Im7 from '../../../public/im7.webp'
@@ -346,33 +333,6 @@ export default function ProductPage() {
             o mundo.
           </p>
           <Image alt="img" src={Gif} quality={100} />
-        </div>
-
-        <div className="w-[70%] flex flex-col items-center gap-2">
-          <h1 className="w-full text-center font-bold text-[13px]">
-            FORMAS DE PAGAMENTO
-          </h1>
-          <div className="w-full flex flex-wrap justify-center gap-[15px]">
-            <Image alt="metodo" src={Svg1} quality={100} width={40} />
-            <Image alt="metodo" src={Svg2} quality={100} width={40} />
-            <Image alt="metodo" src={Svg3} quality={100} width={40} />
-            <Image alt="metodo" src={Svg4} quality={100} width={40} />
-            <Image alt="metodo" src={Svg5} quality={100} width={40} />
-            <Image alt="metodo" src={Svg6} quality={100} width={40} />
-            <Image alt="metodo" src={Svg7} quality={100} width={40} />
-            <Image alt="metodo" src={Svg8} quality={100} width={40} />
-            <Image alt="metodo" src={Svg9} quality={100} width={40} />
-            <Image alt="metodo" src={Svg10} quality={100} width={40} />
-          </div>
-        </div>
-
-        <div className="w-[90%] flex flex-col items-center gap-2">
-          <h1 className="w-full font-bold text-[13px]">LOJA VERIFICADA</h1>
-          <div className="w-full flex justify-start gap-[15px]">
-            <Image alt="metodo" src={Svg11} quality={100} className="w-full" />
-            <Image alt="metodo" src={Svg12} quality={100} className="w-full" />
-            <Image alt="metodo" src={Svg13} quality={100} className="w-full" />
-          </div>
         </div>
 
         <Footer />
