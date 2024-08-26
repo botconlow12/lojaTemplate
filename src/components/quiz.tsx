@@ -5,7 +5,7 @@ const questions = [
   {
     question: 'Qual destas ações a Bibi realiza para ajudar a natureza?',
     options: [
-      'Joga fora todo o material não utilizado',
+      'Queima todo o material não utilizado',
       'Não se preocupa com o meio ambiente',
       'Usa materiais recicláveis em seus produtos',
     ],
