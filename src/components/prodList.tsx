@@ -45,7 +45,7 @@ export function ProdList({ category, section }: ProdListProps) {
       {filteredProducts.map((product) => (
         <Link
           key={product.id}
-          href={product.href || '/produtos'}
+          href={`/products/${product.id}` || '/produtos'}
           className="px-1 flex flex-col rounded-lg text-[#333]"
           style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }}
         >
@@ -100,12 +100,6 @@ interface ProdListProps {
   section?: string
 }
 
-interface ProdListProps {
-  category?: string
-  subcategory?: string
-  section?: string
-}
-
 export function ProdList2({ category, subcategory, section }: ProdListProps) {
   // Estado para armazenar quais produtos têm o coração preenchido
   const [filledHearts, setFilledHearts] = useState<Record<number, boolean>>({})
@@ -138,7 +132,7 @@ export function ProdList2({ category, subcategory, section }: ProdListProps) {
       {filteredProducts.map((product) => (
         <Link
           key={product.id}
-          href={product.href || '/produtos'}
+          href={`/products/${product.id}` || '/produtos'}
           className="w-full h-auto flex flex-col items-center gap-2"
         >
           <div

@@ -10,14 +10,13 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "Descubra o tênis infantil masculino perfeito para as brincadeiras do dia a dia!Nosso modelo na cor preta, com aplicação de dino aviador, apresenta um design moderno, ideal para acompanhar as crianças em todas as suas aventuras.Confeccionado em elastano, um material respirável e de fácil limpeza, o tênis oferece um ajuste excelente ao pé, garantindo conforto durante todo o uso.O solado inovador com rolamentos segue os movimentos do pé, oferecendo um design ainda mais atual e criativo. Possui a palmilha Fisioflex, que é macia e proporciona a sensação de andar descalço, assegurando conforto extremo para os pequenos.Este tênis é a escolha ideal para pais que buscam qualidade, conforto e um visual moderno para seus pequenos.",
-      "href": "/products/1",
       "bannerImg": "/prod1/prod1.webp",
       "images": [
         "/prod1/prod1.webp",
         "/prod1/prod2.webp",
         "/prod1/prod3.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Tenis",
       "sections": ["Lançamentos"]
     },
@@ -30,7 +29,6 @@
       "tipo": "numero",
       "opcoes": ["14/15", "16", "17", "18", "19"],
       "desc": "A mágica do universo Disney se encontra com o conforto e a qualidade dos calçados infantis da Bibi e promete encantar as crianças e os pais!Apresentamos o icônico Mickey Mouse.O tênis meia infantil masculino Afeto Joy ll é confeccionado com materiais de alta qualidade. Com sua biqueira em couro, garante durabilidade e conforto para os pezinhos. Confeccionado em elastano e com fechamento em tira, é fácil de calçar e proporciona um ajuste ideal, garantindo que os pezinhos fiquem protegidos e se desenvolvam naturalmente.Além disso, sua modelagem é cuidadosamente elaborada para garantir o máximo conforto.As orelhinhas do Mickey trazem um toque de diversão e encanto, tornando este tênis o preferido das mamães e dos bebês. Essa é a escolha perfeita para todas que adoram o universo Disney.Garanta já o tênis infantil e faça parte dessa mágica parceria entre Bibi e Disney!",
-      "href": "/products/2",
       "bannerImg": "/prod4/prod1.webp",
       "images": [
         "/prod4/prod1.webp",
@@ -54,7 +52,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A mágica do universo Disney se encontra com o conforto e a qualidade dos calçados infantis da Bibi e promete encantar as crianças e os pais!Apresentamos o icônico Mickey Mouse.O tênis infantil de luz masculino da linha Bibi Roller Celebration 2.0 é um calçado versátil, projetado para combinar perfeitamente com todas as ocasiões!Confeccionado em elastano, um material transpirante e de fácil limpeza, é ideal para uso diário, proporcionando um ajuste excelente aos pezinhos.Destacando-se pelo seu design moderno, seu solado vem equipado com luzinhas que piscam ao caminhar, oferecendo não apenas conforto, mas também diversão para as meninas durante as atividades diárias. Possui a palmilha Fisioflex, reconhecida pelo seu conforto, proporcionando uma sensação similar a andar descalço.A estampa de maozinhas do Mickey traz um toque de diversão e encanto, tornando este calçado o preferido das crianças. Essa é a escolha perfeita para todas que adoram o universo Disney.Garanta já o tênis infantil e faça parte dessa mágica parceria entre Bibi e Disney!",
-      "href": "/products/3",
       "bannerImg": "/prod5/prod1.webp",
       "images": [
         "/prod5/prod1.webp",
@@ -65,12 +62,12 @@
         "/prod5/prod6.webp",
         "/prod5/prod7.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Tenis",
       "sections": ["Lançamentos"]
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Tênis Infantil Bibi Agility Mini Preto com Grafite",
       "rate": 96,
       "price": "259,90",
@@ -78,7 +75,6 @@
       "tipo": "numero",
       "opcoes": ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"],
       "desc": "Descubra o estilo e a praticidade para os pés de seu pequeno com o tênis infantil masculino da linha Bibi Agility Mini II. Ideal para o dia a dia e as aventuras que as crianças mais amam!BenefíciosConforto: Fabricado com matérias especiais que garantem o conforto dos pés. Possui a palmilha Fisioflex, que simula a sensação de andar descalço, proporcionando conforto extra.Leveza: O solado de EVA incorpora a tecnologia BPLUS, proporcionando maior tração e conforto devido ao toque macio e emborrachado.Segurança: Possui duas tiras para para maior segurança dos pés.Adquira já este modelo de tênis masculino casual que vai encantar todos os pequenos!",
-      "href": "/products/3",
       "bannerImg": "/prod6/prod1.webp",
       "images": [
         "/prod6/prod1.webp",
@@ -86,12 +82,12 @@
         "/prod6/prod3.webp",
         "/prod6/prod4.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Tenis",
       "sections": ["OS BÁSICOS PARA TODAS AS OCASIÕES!"]
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Tênis Infantil Bibi Energy Baby 2.0 Preto com Azul",
       "rate": 96,
       "price": "179,90",
@@ -99,19 +95,18 @@
       "tipo": "numero",
       "opcoes": ["18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"],
       "desc": "Descubra o tênis infantil masculino ideal para as brincadeiras diárias e atividades escolares!Com um design atual e moderno, este modelo é fácil de calçar e oferece um excelente ajuste aos pés. Confeccionado em tecido de fácil limpeza, o tênis conta com detalhes em amassamento, proporcionando conforto.Perfeito para o uso diário e para ir à escola, seu solado de EVA incorpora a tecnologia BPlus, que garante maior tração e aderência ao piso, além de proporcionar um toque macio e emborrachado para mais conforto. A palmilha Fisioflex é extremamente macia, simulando a sensação de andar descalço, oferecendo um bem-estar incomparável para os pequenos.Combinando funcionalidade e conforto, este tênis é a escolha ideal para crianças que precisam de um calçado resistente e confortável para o dia a dia.Escolha o melhor tênis infantil, que une estilo, praticidade e conforto, perfeito para todas as aventuras diárias.",
-      "href": "/products/4",
       "bannerImg": "/prod7/prod1.webp",
       "images": [
         "/prod7/prod1.webp",
         "/prod7/prod2.webp",
         "/prod7/prod3.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Tenis",
       "sections": ["OS BÁSICOS PARA TODAS AS OCASIÕES!"]
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Tênis Infantil Masculino Bibi Roller 2.0 Azul 1155014",
       "rate": 96,
       "price": "179,90",
@@ -119,7 +114,6 @@
       "tipo": "numero",
       "opcoes": ["19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"],
       "desc": "Conforto e Segurança para as Maiores Aventuras dos Pequenos!O Tênis Infantil Masculino Bibi Roller 2.0 Azul é um clássico da Calçados Bibi que recebeu uma releitura moderna. Com design atual e criativo, é ideal para o dia a dia das crianças. Seus rolamentos acompanham os movimentos dos pezinhos, proporcionando liberdade e conforto em cada passo.Diferenciais:Cabedais em elastano para facilitar o calceMaterial resistente e de alta qualidadePalmilha Fisioflex Dry para maior confortoNão possui cadarço, garantindo segurança durante as brincadeirasMais sobre o Produto:O Tênis Bibi Roller 2.0 Azul é perfeito para atividades escolares e momentos de lazer. Seu estilo escolar combina com uniformes e roupas do dia a dia, garantindo praticidade e conforto para os pequenos.Dicas de Uso:Combine o tênis com bermudas, calças jeans ou uniformes escolares. Ideal para passeios no parque, idas à escola e outras atividades do cotidiano. Seu design moderno e cores vibrantes tornam o calçado um item versátil para diversas ocasiões.",
-      "href": "/products/5",
       "bannerImg": "/prod8/prod1.webp",
       "images": [
         "/prod8/prod1.webp",
@@ -127,12 +121,12 @@
         "/prod8/prod3.webp",
         "/prod8/prod4.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Tenis",
       "sections": ["OS BÁSICOS PARA TODAS AS OCASIÕES!"]
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Tênis Infantil de Luz Bibi Roller Celebration 2.0 Azul Marinho",
       "rate": 96,
       "price": "219,90",
@@ -140,7 +134,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33"],
       "desc": "O tênis infantil de luz da linha Bibi Roller Celebration 2.0 é um calçado versátil, projetado para combinar perfeitamente com todas as ocasiões. Confeccionado em elastano, um material transpirante e de fácil limpeza, é ideal para uso diário, proporcionando um ajuste excelente aos pezinhos. Destacando-se pelo seu design moderno, seu solado vem equipado com luzinhas que piscam ao caminhar, oferecendo não apenas conforto, mas também diversão aos meninos durante as atividades do dia a dia. Além disso, possui a palmilha Fisioflex, reconhecida pelo seu conforto, proporcionando uma sensação similar a andar descalço. O tênis infantil de Luz masculino Bibi Roller Celebration 2.0 é muito mais do que um simples calçado, é um companheiro perfeito para as aventuras diárias, unindo conforto, modernidade e diversão para os pequenos aventureiros.",
-      "href": "/products/6",
       "bannerImg": "/prod9/prod1.webp",
       "images": [
         "/prod9/prod1.webp",
@@ -148,54 +141,12 @@
         "/prod9/prod3.webp",
         "/prod9/prod4.webp"
       ],
-      "category": "meninos",
-      "subcategory": "Tenis",
-      "sections": ["AS MELHORES PROMOÇÕES DA BIBI"]
-    },
-    {
-      "id": 7,
-      "title": "Tênis Infantil Masculino Bibi Roller 2.0 Marrom",
-      "rate": 96,
-      "price": "179,90",
-      "parcelamento": "3x de R$ 63,30",
-      "tipo": "numero",
-      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33"],
-      "desc": "Conforto e Segurança para os Pequenos Aventureiros!O Tênis Infantil Masculino Roller 2.0 da Calçados Bibi é a escolha perfeita para acompanhar as crianças em suas maiores aventuras do dia a dia. Com um design atual e criativo, o Roller 2.0 recebeu uma releitura que o torna sinônimo de conforto e diversão. Os cabedais em elastano facilitam o calce, enquanto os rolamentos acompanham os movimentos dos pezinhos, garantindo liberdade e segurança.",
-      "href": "/products/7",
-      "bannerImg": "/prod10/prod1.webp",
-      "images": [
-        "/prod10/prod1.webp",
-        "/prod10/prod2.webp",
-        "/prod10/prod3.webp"
-      ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Tenis",
       "sections": ["AS MELHORES PROMOÇÕES DA BIBI"]
     },
     {
       "id": 8,
-      "title": "Tênis Infantil Bibi Evolution Preto II",
-      "rate": 96,
-      "price": "249,90",
-      "parcelamento": "3x de R$ 63,30",
-      "tipo": "numero",
-      "opcoes": ["25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37"],
-      "desc": "Descubra o tênis esportivo infantil masculino Evolution ll!Perfeito para qualquer ocasião, desde o dia a dia até os passeios divertidos, com um design moderno e estiloso.Confeccionado em elastano, este tênis oferece acolchoamento traseiro para maior conforto.O solado de EVA mesclado incorpora a tecnologia BPLUS, proporcionando mais tração e conforto graças ao toque macio e emborrachado.A palmilha Fisioflex Dry é extremamente confortável, oferecendo a sensação de andar descalço.Escolha este tênis infantil esportivo para unir estilo, conforto e praticidade em um só calçado!",
-      "href": "/products/8",
-      "bannerImg": "/prod11/prod1.webp",
-      "images": [
-        "/prod11/prod1.webp",
-        "/prod11/prod2.webp",
-        "/prod11/prod3.webp",
-        "/prod11/prod3.webp",
-        "/prod11/prod4.webp"
-      ],
-      "category": "meninos",
-      "subcategory": "Tenis",
-      "sections": ["AS MELHORES PROMOÇÕES DA BIBI"]
-    },
-    {
-      "id": 9,
       "title": "Tênis Infantil Bibi Evolution ll Azul Marinho de Avião",
       "rate": 96,
       "price": "279,90",
@@ -203,7 +154,6 @@
       "tipo": "numero",
       "opcoes": ["25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37"],
       "desc": "Descubra o tênis esportivo infantil masculino Evolution ll!Perfeito para qualquer ocasião, desde o dia a dia até os passeios divertidos, com um design moderno e estiloso.Confeccionado em elastano, este tênis oferece acolchoamento traseiro para maior conforto.O solado de EVA mesclado incorpora a tecnologia BPLUS, proporcionando mais tração e conforto graças ao toque macio e emborrachado.A palmilha Fisioflex Dry é extremamente confortável, oferecendo a sensação de andar descalço.Escolha este tênis infantil esportivo para unir estilo, conforto e praticidade em um só calçado!",
-      "href": "/products/9",
       "bannerImg": "/prod12/prod1.webp",
       "images": [
         "/prod12/prod1.webp",
@@ -212,56 +162,12 @@
         "/prod12/prod3.webp",
         "/prod12/prod4.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Tenis",
       "sections": []
     },
     {
-      "id": 10,
-      "title": "Tênis Infantil Bibi Roller Colegial 2.0 Branco",
-      "rate": 96,
-      "price": "239,90",
-      "parcelamento": "3x de R$ 63,30",
-      "tipo": "numero",
-      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
-      "desc": "A Linha de Tênis Infantil Bibi Roller Colegial 2.0 é a escolha perfeita para o dia a dia escolar, combinando conforto, estilo e praticidade.Com um design unissex e clássico em couro, este tênis é ideal tanto para meninos quanto para meninas, oferecendo versatilidade para combinar com qualquer uniforme escolar.Disponível nas cores tradicionais dos uniformes escolares, preto e branco, o Bibi Roller Colegial 2.0 é fácil de calçar, proporcionando mais autonomia para as crianças e praticidade para os pais.Além disso, conta com a Exclusiva Palmilha Fisioflex, que proporciona a sensação de andar descalço, garantindo conforto durante todo o dia.Escolha o Tênis Infantil Bibi Roller Colegial 2.0 para garantir que seu filho esteja sempre confortável e estiloso na escola.",
-      "href": "/products/10",
-      "bannerImg": "/prod13/prod1.webp",
-      "images": [
-        "/prod13/prod1.webp",
-        "/prod13/prod2.webp",
-        "/prod13/prod3.webp",
-        "/prod13/prod3.webp",
-        "/prod13/prod4.webp"
-      ],
-      "category": "meninos",
-      "subcategory": "Tenis",
-      "sections": []
-    },
-    {
-      "id": 11,
-      "title": "Tênis Infantil Bibi Roller Colegial 2.0 Preto",
-      "rate": 96,
-      "price": "239,90",
-      "parcelamento": "3x de R$ 63,30",
-      "tipo": "numero",
-      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
-      "desc": "A Linha de Tênis Infantil Bibi Roller Colegial 2.0 é a escolha perfeita para o dia a dia escolar, combinando conforto, estilo e praticidade.Com um design unissex e clássico em couro, este tênis é ideal tanto para meninos quanto para meninas, oferecendo versatilidade para combinar com qualquer uniforme escolar.Disponível nas cores tradicionais dos uniformes escolares, preto e branco, o Bibi Roller Colegial 2.0 é fácil de calçar, proporcionando mais autonomia para as crianças e praticidade para os pais.Além disso, conta com a Exclusiva Palmilha Fisioflex, que proporciona a sensação de andar descalço, garantindo conforto durante todo o dia.Escolha o Tênis Infantil Bibi Roller Colegial 2.0 para garantir que seu filho esteja sempre confortável e estiloso na escola.",
-      "href": "/products/11",
-      "bannerImg": "/prod14/prod1.webp",
-      "images": [
-        "/prod14/prod1.webp",
-        "/prod14/prod2.webp",
-        "/prod14/prod3.webp",
-        "/prod14/prod3.webp",
-        "/prod14/prod4.webp"
-      ],
-      "category": "meninos",
-      "subcategory": "Tenis",
-      "sections": []
-    },
-    {
-      "id": 12,
+      "id": 9,
       "title": "Tênis Infantil de Luz Bibi Space Preto de Dinossauro 1228070",
       "rate": 96,
       "price": "209,90",
@@ -269,7 +175,6 @@
       "tipo": "numero",
       "opcoes": ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"],
       "desc": "Descubra o tênis infantil masculino perfeito para todas as ocasiões, especialmente para as aventuras diárias dos meninos!Confeccionado em elastano, este modelo é fácil de calçar e se ajusta perfeitamente ao pé, garantindo conforto e praticidade.O design moderno é realçado por uma estampa divertida de dinossauro, com rodinhas lúdicas e divertidas, trazendo diversão ao look dos pequenos.Além disso, o solado conta com luzes multicoloridas que piscam a cada passo, encantando as crianças.A palmilha Fisioflex proporciona uma sensação de andar descalço, oferecendo maciez e conforto incomparáveis.Aposte neste tênis masculino para proporcionar estilo e alegria em todas as ocasiões!",
-      "href": "/products/12",
       "bannerImg": "/prod15/prod1.webp",
       "images": [
         "/prod15/prod1.webp",
@@ -278,12 +183,12 @@
         "/prod15/prod3.webp",
         "/prod15/prod4.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Tenis",
       "sections": []
     },
     {
-      "id": 13,
+      "id": 10,
       "title": "Bota Infantil Bibi Para Todos Azul e Laranja 1177009",
       "rate": 96,
       "price": "339,90",
@@ -291,7 +196,6 @@
       "tipo": "numero",
       "opcoes": ["25", "26", "27", "28", "29", "30","31", "32", "33", "34", "35", "36", "37"],
       "desc": "Imagina um tênis divertido, confortável, estiloso, fácil de calçar e feito com muito estudo e carinho. Imaginou? Esse é o Bibi Para Todos! Feito para que todas as crianças se sintam livres para brincar e ser criança. Há dois anos, a Dra Eliane Mafio se conectou com a Bibi, pra fazer um tênis que toda criança pudesse usar sem se sentir diferente. Depois de muito estudo, entendendo as necessidades e dificuldades que os papais, mamães, cuidadores e crianças que utilizam órtese sentiam, nasceu O Bibi Para Todos. O cano alto traz mais estabilidade e ajuda na locomoção de cada passinho e o zíper 360° abre todo, facilitando o calce e proporcionando mais autonomia aos pequenos. Por ser todo em elastano, o tênis inclusivo é muito confortável, além de se ajustar melhor no pé e na órtese, e a palmilha fofinha, tem a sensação de andar descalço. O Bibi para todos não é apenas especial porque pode ser usado por quem utiliza órtese, é especial porque é feito para todas as crianças.",
-      "href": "/products/13",
       "bannerImg": "/prod16/prod1.webp",
       "images": [
         "/prod16/prod1.webp",
@@ -301,12 +205,12 @@
         "/prod16/prod4.webp",
         "/prod16/prod5.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 14,
+      "id": 11,
       "title": "Bota Infantil Bibi Azul Marinho Roller 2.0 Drop",
       "rate": 96,
       "price": "289,90",
@@ -314,7 +218,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30","31", "32"],
       "desc": "O Roller 2.0 é perfeito um dia cheio de aventuras. A bota infantil tem fechamento em velcro, o tornando mais seguro e fácil de calçar, devido ao tamanho de sua abertura. O tecido em nylon conta com a tecnologia Drop, ela que repele a água, mas deixa o suor sair, perfeita para os dias mais húmidos e de chuva. A bota para os meninos mistura tons de azul no tecido e no solado, tornando seu design super estiloso, da forma que as crianças adoram. É o calçado infantil perfeito para os mais diversos momentos. Entre as principais características da linha Roller está o solado com rolamentos que acompanham os movimentos do caminhar. Cheia de conforto, a bota possui aplicação de camadas de espuma no nylon e uma biqueira em material sintético, que a deixa mais resistente. A exclusiva tecnologia, da nova palmilha Fisioflex Dry da Bibi, possui espuma de alta densidade, com capacidade de absorção e amortecimento do impacto durante a caminha, também conta com pipetas que geram a sensação de andar descalço através de estímulos sensoriais nos pezinhos, auxiliando no desenvolvimento natural e saudável da criança.",
-      "href": "/products/14",
       "bannerImg": "/prod17/prod1.webp",
       "images": [
         "/prod17/prod1.webp",
@@ -323,12 +226,12 @@
         "/prod17/prod3.webp",
         "/prod17/prod4.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 15,
+      "id": 12,
       "title": "Bota Infantil de Couro Bibi Branca Agility Mini II",
       "rate": 96,
       "price": "289,90",
@@ -336,7 +239,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30","31", "32"],
       "desc": "A bota infantil Agility Mini II é uma nova versão da linha de calçados infantis desenvolvida para as idades iniciais, criado com material maleável, o calçado tem calce super fácil de realizar. A bota infantil conta com a tecnologia Drop da Bibi, que repele a água e mantém os pezinhos secos e protegidos em dias mais húmidos ou de chuva. Confeccionado com aplicação de camadas de espuma, para trazer ainda mais conforto para as crianças, além de ser mais seguro e resistente por contar com material sintético na biqueira. Seu solado no estilo caixa foi desenvolvido em EVA para dar mais leveza, flexibilidade e conforto para os pequenos. O calçado unissex conta com cores incríveis para combinar perfeitamente com o look das meninas e dos meninos e utilizar nos mais diversos momentos. Cada material utilizado, para produzir a bota infantil, foi testado para que nossos calçados sejam livres de materiais que causam danos à saúde da criança, garantindo a Proteção não-tóxica da Bibi. A exclusiva tecnologia da Palmilha Fisioflex tem a capacidade de absorver e amortecer o impacto dos pezinhos ao chão, porque possui uma espuma de alta densidade. O toque dos pezinhos com o chão tem papel importante no desenvolvimento natural e saldável das crianças, para que isso aconteça, a palmilha conta com pipetas que simulam estímulos sensoriais, auxiliando no desenvolvimento, da mesma forma que andar descalço.",
-      "href": "/products/15",
       "bannerImg": "/prod18/prod1.webp",
       "images": [
         "/prod18/prod1.webp",
@@ -347,12 +249,12 @@
         "/prod18/prod5.webp",
         "/prod18/prod6.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 16,
+      "id": 13,
       "title": "Bota Infantil de Couro Bibi Marrom Agility Mini II",
       "rate": 96,
       "price": "289,90",
@@ -360,7 +262,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30","31", "32"],
       "desc": "A bota infantil Agility Mini II é uma nova versão da linha de calçados infantis desenvolvida para as idades iniciais, criado com material maleável, o calçado tem calce super fácil de realizar. A bota infantil conta com a tecnologia Drop da Bibi, que repele a água e mantém os pezinhos secos e protegidos em dias mais húmidos ou de chuva. Confeccionado com aplicação de camadas de espuma, para trazer ainda mais conforto para as crianças, além de ser mais seguro e resistente por contar com material sintético na biqueira. Seu solado no estilo caixa foi desenvolvido em EVA para dar mais leveza, flexibilidade e conforto para os pequenos. O calçado unissex conta com cores incríveis para combinar perfeitamente com o look das meninas e dos meninos e utilizar nos mais diversos momentos. Cada material utilizado, para produzir a bota infantil, foi testado para que nossos calçados sejam livres de materiais que causam danos à saúde da criança, garantindo a Proteção não-tóxica da Bibi. A exclusiva tecnologia da Palmilha Fisioflex tem a capacidade de absorver e amortecer o impacto dos pezinhos ao chão, porque possui uma espuma de alta densidade. O toque dos pezinhos com o chão tem papel importante no desenvolvimento natural e saldável das crianças, para que isso aconteça, a palmilha conta com pipetas que simulam estímulos sensoriais, auxiliando no desenvolvimento, da mesma forma que andar descalço.",
-      "href": "/products/16",
       "bannerImg": "/prod19/prod1.webp",
       "images": [
         "/prod19/prod1.webp",
@@ -371,12 +272,12 @@
         "/prod19/prod5.webp",
         "/prod19/prod6.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 17,
+      "id": 14,
       "title": "Bota Infantil de Couro Bibi Marrom Agility Mini II",
       "rate": 96,
       "price": "289,90",
@@ -384,7 +285,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30","31", "32"],
       "desc": "A bota infantil Agility Mini II é uma nova versão da linha de calçados infantis desenvolvida para as idades iniciais, criado com material maleável, o calçado tem calce super fácil de realizar. A bota infantil conta com a tecnologia Drop da Bibi, que repele a água e mantém os pezinhos secos e protegidos em dias mais húmidos ou de chuva. Confeccionado com aplicação de camadas de espuma, para trazer ainda mais conforto para as crianças, além de ser mais seguro e resistente por contar com material sintético na biqueira. Seu solado no estilo caixa foi desenvolvido em EVA para dar mais leveza, flexibilidade e conforto para os pequenos. O calçado unissex conta com cores incríveis para combinar perfeitamente com o look das meninas e dos meninos e utilizar nos mais diversos momentos. Cada material utilizado, para produzir a bota infantil, foi testado para que nossos calçados sejam livres de materiais que causam danos à saúde da criança, garantindo a Proteção não-tóxica da Bibi. A exclusiva tecnologia da Palmilha Fisioflex tem a capacidade de absorver e amortecer o impacto dos pezinhos ao chão, porque possui uma espuma de alta densidade. O toque dos pezinhos com o chão tem papel importante no desenvolvimento natural e saldável das crianças, para que isso aconteça, a palmilha conta com pipetas que simulam estímulos sensoriais, auxiliando no desenvolvimento, da mesma forma que andar descalço.",
-      "href": "/products/17",
       "bannerImg": "/prod20/prod1.webp",
       "images": [
         "/prod20/prod1.webp",
@@ -393,12 +293,12 @@
         "/prod20/prod3.webp",
         "/prod20/prod4.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 18,
+      "id": 15,
       "title": "Chinelo Infantil Bibi Sun Slide Azul Marinho de Dino",
       "rate": 96,
       "price": "119,90",
@@ -406,7 +306,6 @@
       "tipo": "numero",
       "opcoes": ["21/22", "23/24", "25/26", "27/28", "29/30", "31/32", "33/34", "35/36"],
       "desc": "Descubra o chinelo slide masculino infantil perfeito para qualquer ocasião, combinando estilo e modernidade com um toque único graças ao pin de Dino Aviador.Este chinelo, confeccionado em EVA de alta qualidade, utiliza a tecnologia BPLUS para proporcionar maior tração e conforto, oferecendo um toque macio e emborrachado.Sua modelagem inovadora permite personalização com pins, adicionando diversão e ludicidade ao modelo. A palmilha com textura antiderrapante e o solado com rolamentos acompanham os movimentos dos pés, garantindo segurança e estabilidade.Com um design atual e criativo, este chinelo é a escolha ideal para quem busca conforto e estilo em um só produto.",
-      "href": "/products/18",
       "bannerImg": "/prod21/prod1.webp",
       "images": [
         "/prod21/prod1.webp",
@@ -415,12 +314,12 @@
         "/prod21/prod3.webp",
         "/prod21/prod4.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Chinelos",
       "sections": []
     },
     {
-      "id": 19,
+      "id": 16,
       "title": "Chinelo Infantil Bibi Sun Preto de Tigre",
       "rate": 96,
       "price": "119,90",
@@ -428,7 +327,6 @@
       "tipo": "numero",
       "opcoes": ["21/22", "23/24", "25/26", "27/28", "29/30", "31/32", "33/34", "35/36"],
       "desc": "Descubra o chinelo infantil masculino na cor preta, perfeito para todas as ocasiões, especialmente para as aventuras do dia a dia!Confeccionado em EVA de alta qualidade, este chinelo utiliza a tecnologia BPLUS, que oferece maior tração e conforto incomparável graças ao toque macio e emborrachado.Com detalhes lúdicos e fofos da estampa de leão, sua modelagem é super moderna e estilosa. A palmilha com textura antiderrapante e o solado com rolamentos acompanham os movimentos dos pés, garantindo segurança e estabilidade.Com um design atual e criativo, este chinelo é ideal para quem busca conforto e estilo em um só produto.",
-      "href": "/products/19",
       "bannerImg": "/prod22/prod1.webp",
       "images": [
         "/prod22/prod1.webp",
@@ -437,12 +335,12 @@
         "/prod22/prod3.webp",
         "/prod22/prod4.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Chinelos",
       "sections": []
     },
     {
-      "id": 20,
+      "id": 17,
       "title": "Chinelo Infantil Bibi Sun Slide Azul Marinho de Tigre",
       "rate": 96,
       "price": "109,90",
@@ -450,7 +348,6 @@
       "tipo": "numero",
       "opcoes": ["21/22", "23/24", "25/26", "27/28", "29/30", "31/32", "33/34", "35/36"],
       "desc": "Descubra o chinelo slide masculino infantil perfeito para todas as ocasiões!Com um design super estiloso, este chinelo combina perfeitamente com qualquer look, adicionando um toque de modernidade com sua estampa exclusiva de leãozinho.Confeccionado em EVA de alta qualidade, ele utiliza a tecnologia BPLUS para oferecer maior tração e conforto incomparável, graças ao seu toque macio e emborrachado.Sua modelagem inovadora permite a personalização com pins, trazendo diversão e ludicidade ao modelo. Além disso, a palmilha possui uma textura antiderrapante e o solado conta com rolamentos que acompanham os movimentos dos pés, garantindo segurança e estabilidade.Com um design atual e criativo, este chinelo masculino é perfeito para quem busca inovação e estilo, ideal para se destacar com um toque de modernidade e personalidade única.",
-      "href": "/products/20",
       "bannerImg": "/prod23/prod1.webp",
       "images": [
         "/prod23/prod1.webp",
@@ -459,12 +356,12 @@
         "/prod23/prod3.webp",
         "/prod23/prod4.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Chinelos",
       "sections": []
     },
     {
-      "id": 21,
+      "id": 18,
       "title": "Chinelo Infantil Bibi Sun Slide Preto de Dragossauro",
       "rate": 96,
       "price": "159,90",
@@ -472,7 +369,6 @@
       "tipo": "numero",
       "opcoes": ["21/22", "23/24", "25/26", "27/28", "29/30", "31/32", "33/34", "35/36"],
       "desc": "O chinelo infantil masculino Bibi Sun Slide é um calçado descolado e versátil, perfeito para todas as ocasiões e um complemento moderno para os looks dos pequenos. Com um design super estiloso, esse chinelo destaca-se pela aplicação de um pin de Dragossauro e pelo emborrachado no elástico do traseiro, adicionando um toque divertido ao modelo. Confeccionado em EVA, proporciona uma sensação de leveza incomparável, garantindo conforto durante todo o uso. Sua modelagem permite a customização com pins, proporcionando diversão e ludicidade ao estilo. A palmilha possui textura antiderrapante, assegurando maior aderência, e o solado com rolamentos acompanha os movimentos naturais dos pés em um design atual e criativo. O chinelo infantil masculino Bibi Sun Slide não só é um calçado, mas uma peça que une conforto e estilo para os momentos de diversão e descoberta dos pequenos. Adquira já este chinelo moderno e proporcione aos meninos aventureiros o conforto e a moda que eles merecem!",
-      "href": "/products/21",
       "bannerImg": "/prod24/prod1.webp",
       "images": [
         "/prod24/prod1.webp",
@@ -481,12 +377,12 @@
         "/prod24/prod3.webp",
         "/prod24/prod4.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Chinelos",
       "sections": []
     },
     {
-      "id": 22,
+      "id": 19,
       "title": "Chinelo Infantil Bibi Sun Preto de Dragossauro",
       "rate": 96,
       "price": "109,90",
@@ -494,7 +390,6 @@
       "tipo": "numero",
       "opcoes": ["21/22", "23/24", "25/26", "27/28", "29/30", "31/32", "33/34", "35/36"],
       "desc": "O chinelo infantil masculino da linha Bibi Sun apresenta um design exclusivo Bibi em tons preto e verde mineral, perfeito para todas as ocasiões, especialmente para as aventuras do dia a dia. Confeccionado em EVA, esse chinelo proporciona incrível leveza, além de detalhes super lúdicos e fofos da estampa de Dragossauro, agregando um toque divertido e encantador. Sua modelagem moderna e estilosa oferece um ajuste confortável, enquanto a palmilha com textura antiderrapante e o solado com rolamentos acompanham naturalmente os movimentos dos pés, garantindo segurança e conforto em um design atual e criativo. O chinelo infantil masculino Bibi Sun é mais do que apenas um calçado, é uma escolha perfeita para os pequenos aventureiros, proporcionando conforto e diversão em cada passo. Adquira agora esse chinelo exclusivo Bibi Sun e ofereça aos meninos toda a qualidade e diversão que eles merecem em seus momentos de brincadeira!",
-      "href": "/products/22",
       "bannerImg": "/prod25/prod1.webp",
       "images": [
         "/prod25/prod1.webp",
@@ -503,12 +398,12 @@
         "/prod25/prod3.webp",
         "/prod25/prod4.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Chinelos",
       "sections": []
     },
     {
-      "id": 23,
+      "id": 20,
       "title": "Chinelo Infantil Bibi Sun Preto",
       "rate": 96,
       "price": "89,90",
@@ -516,7 +411,6 @@
       "tipo": "numero",
       "opcoes": ["21/22", "23/24", "25/26", "27/28", "29/30", "31/32", "33/34", "35/36"],
       "desc": "Chegou o Bibi Sun para completar a brincadeira. O chinelo traz praticidade, segurança e conforto para que os pezinhos possam caminhar livres, leves e soltos em todos os lugares com muito estilinho e proteção. O design arredondado proporciona flexibilidade, além de ser super fácil para calçar e limpar. O solado Roller é produzido em EVA deixando o produto leve, amenizando todos os impactos e acompanhando todas as aventuras. O chinelo tem tiras com detalhes estilosos.",
-      "href": "/products/23",
       "bannerImg": "/prod26/prod1.webp",
       "images": [
         "/prod26/prod1.webp",
@@ -524,12 +418,12 @@
         "/prod26/prod3.webp",
         "/prod26/prod3.webp"
       ],
-      "category": "meninos",
+      "category": "Meninos",
       "subcategory": "Chinelos",
       "sections": []
     },
     {
-      "id": 24,
+      "id": 21,
       "title": "Tênis Infantil Bibi Jogging Rosa com Branco",
       "rate": 96,
       "price": "269,90",
@@ -537,7 +431,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "Tênis Infantil Feminino Bibi Jogging: Conforto e Estilo para as Pequenas! Este modelo é confeccionado em material respirável com detalhes em camurça, garantindo um visual moderno e estiloso para todas as meninas. Além disso, o Tênis Jogging é projetado para proporcionar praticidade, com fácil calce e simplicidade na hora da limpeza. O solado destaca-se pela combinação da tecnologia Bplus, que oferece conforto inigualável e peças emborrachadas, proporcionando segurança extra para as crianças durante suas atividades. Outro diferencial é a palmilha Fisioflex, que é extremamente fofinha e proporciona a sensação de andar descalço, oferecendo um conforto excepcional para os pés. Ao escolher o tênis infantil Bibi Jogging, você estará garantindo um produto de alta qualidade, que une moda, praticidade e conforto, perfeito para acompanhar as crianças em todas as suas aventuras diárias.",
-      "href": "/products/24",
       "bannerImg": "/prod2/prod1.webp",
       "images": [
         "/prod2/prod1.webp",
@@ -547,12 +440,12 @@
         "/prod2/prod4.webp",
         "/prod2/prod5.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Tenis",
       "sections": []
     },
     {
-      "id": 25,
+      "id": 22,
       "title": "Tênis Infantil Bibi Glam Branco de Brilho do Stitch",
       "rate": 96,
       "price": "359,90",
@@ -560,7 +453,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A mágica do universo Disney se encontra com o conforto e a qualidade dos calçados infantis da Bibi e promete encantar as crianças e os pais!A Bibi traz para suas coleções o charme dos personagens mais amados da Disney, incluindo o adorável Stitch, protagonista do sucesso Lilo & Stitch. Este tênis feminino infantil com estampa do Stitch de flores e brilhos é uma peça única, que combina diversão e estilo, perfeita para as pequenas fãs da Disney.Confeccionado com materiais de alta qualidade, este tênis garante conforto e durabilidade para as pequenas. A estampa traz um toque de diversão e encanto, tornando este calçado o preferido das crianças. Possui aplicação de flores para deixar o modelo ainda mais lindo.Proporcionando um ajuste perfeito ao pé graças ao fechamento em elástico, este calçado é super confortável e fácil de calçar, ideal para quem busca praticidade e estilo. O solado segue a tendência do estilo casual e é feito em EVA com a tecnologia BPLUS, garantindo mais tração e conforto ao caminhar, devido ao toque macio e emborrachado.A palmilha Fisioflex é outro destaque, sendo fofinha e oferecendo a sensação de andar descalço.Se você procura um calçado infantil que combine estilo, conforto e modernidade, este é a escolha certa para você.Disponível em diversas numerações, é a escolha perfeita para as meninas que adoram o universo Disney e amam estar estilosas.Garanta já o tênis infantil feminino com estampa do Stitch e faça parte dessa mágica parceria entre Bibi e Disney!",
-      "href": "/products/25",
       "bannerImg": "/prod27/prod1.webp",
       "images": [
         "/prod27/prod1.webp",
@@ -571,12 +463,12 @@
         "/prod27/prod6.webp",
         "/prod27/prod7.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Tenis",
       "sections": []
     },
     {
-      "id": 26,
+      "id": 23,
       "title": "Tênis Infantil de Luz Bibi Roller Celebration 2.0 Azul Marinho com Rosa da Minnie",
       "rate": 96,
       "price": "299,90",
@@ -584,7 +476,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A mágica do universo Disney se encontra com o conforto e a qualidade dos calçados infantis da Bibi e promete encantar as crianças e os pais!Apresentamos a icônica Minnie.O tênis infantil de luz feminino da linha Bibi Roller Celebration 2.0 é um calçado versátil, projetado para combinar perfeitamente com todas as ocasiões!Confeccionado em elastano, um material transpirante e de fácil limpeza, é ideal para uso diário, proporcionando um ajuste excelente aos pezinhos.Destacando-se pelo seu design moderno, seu solado vem equipado com luzinhas que piscam ao caminhar, oferecendo não apenas conforto, mas também diversão para as meninas durante as atividades diárias. Possui a palmilha Fisioflex, reconhecida pelo seu conforto, proporcionando uma sensação similar a andar descalço.A estampa de maozinhas da Minnie com o seu laço perfeito, traz um toque de diversão e encanto, tornando este calçado o preferido das crianças. Essa é a escolha perfeita para todas que adoram o universo Disney.Garanta já o tênis infantil e faça parte dessa mágica parceria entre Bibi e Disney!",
-      "href": "/products/26",
       "bannerImg": "/prod28/prod1.webp",
       "images": [
         "/prod28/prod1.webp",
@@ -595,12 +486,12 @@
         "/prod28/prod6.webp",
         "/prod28/prod7.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Tenis",
       "sections": []
     },
     {
-      "id": 27,
+      "id": 24,
       "title": "Tênis Infantil Bibi Roller 2.0 Rosa da Minnie",
       "rate": 96,
       "price": "259,90",
@@ -608,7 +499,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A mágica do universo Disney se encontra com o conforto e a qualidade dos calçados infantis da Bibi e promete encantar as crianças e os pais!Apresentamos a icônica Minnie.O tênis infantil Bibi Roller 2.0 é confeccionado com materiais de alta qualidade, garantindo durabilidade e conforto para as pequenas aventureiras. Confeccionado em elastano, este tênis oferece facilidade no calce e um ajuste ideal aos pezinhos proporcionando extremo conforto. Possui efeito em 3D para deixar o modelo ainda mais divertido.Seu solado segue com rolamentos que acompanham os movimentos naturais dos pés, em um design moderno e criativo, ideal para as brincadeiras e atividades escolares.Equipado com a palmilha Fisioflex, que proporciona uma sensação fofinha e similar a caminhar descalço, este tênis promove o desenvolvimento natural dos pés das crianças. A estampa vibrante da Minnie traz um toque de diversão e encanto, tornando este tênis o preferido das crianças. Essa é a escolha perfeita para todos que adoram o universo Disney.Garanta já o tênis infantil feminino e faça parte dessa mágica parceria entre Bibi e Disney!",
-      "href": "/products/27",
       "bannerImg": "/prod29/prod1.webp",
       "images": [
         "/prod29/prod1.webp",
@@ -619,33 +509,12 @@
         "/prod29/prod6.webp",
         "/prod29/prod7.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Tenis",
       "sections": []
     },
     {
-      "id": 28,
-      "title": "Tênis Infantil Bibi Ever Azul Marinho e Rosa com Elástico",
-      "rate": 96,
-      "price": "229,90",
-      "parcelamento": "3x de R$ 63,30",
-      "tipo": "numero",
-      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
-      "desc": "Desenvolvido para proporcionar o máximo de conforto e praticidade, este Tênis infantil Feminio é uma escolha excepcional para enfrentar as aventuras do dia a dia.Fabricado com elastano, este calçado oferece não apenas um ajuste preciso ao pé, mas também uma sensação de leveza, mantendo os pés confortáveis.O detalhe lateral adiciona um toque de sofisticação e estilo ao design, elevando o visual do calçado. O fechamento em elásticos torna o processo de calçae ainda mais simples e conveniente, proporcionando praticidade para a criança.O solado de EVA apresenta a tecnologia BPlus, que oferece uma aderência excepcional ao piso, proporcionando estabilidade e segurança a cada passo. Além disso, o toque macio e emborrachado do solado garante conforto duradouro ao longo do dia, mesmo em longas caminhadas ou períodos de uso prolongado.Equipado com a palmilha Fisioflex, este calçado proporciona uma experiência única de conforto, oferecendo uma sensação de andar descalço para seu pequeno.",
-      "href": "/products/28",
-      "bannerImg": "/prod30/prod1.webp",
-      "images": [
-        "/prod30/prod1.webp",
-        "/prod30/prod2.webp",
-        "/prod30/prod3.webp",
-        "/prod30/prod4.webp"
-      ],
-      "category": "menina",
-      "subcategory": "Tenis",
-      "sections": []
-    },
-    {
-      "id": 29,
+      "id": 25,
       "title": "Tênis Infantil Bibi Energy Baby 2.0 Azul com Rosa de Tiras",
       "rate": 96,
       "price": "219,90",
@@ -653,39 +522,18 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "Descubra o tênis infantil feminino ideal para as brincadeiras diárias e atividades escolares!Com um design atual e moderno, este modelo é fácil de calçar e oferece um excelente ajuste aos pés. Confeccionado em tecido de fácil limpeza, o tênis conta com duas tiras para fechamento, proporcionando praticidade e segurança.Perfeito para o uso diário e para ir à escola, seu solado de EVA incorpora a tecnologia BPlus, que garante maior tração e aderência ao piso, além de proporcionar um toque macio e emborrachado para mais conforto. A palmilha Fisioflex é extremamente macia, simulando a sensação de andar descalço, oferecendo um bem-estar incomparável para os pequenos.Combinando funcionalidade e conforto, este tênis é a escolha ideal para crianças que precisam de um calçado resistente e confortável para o dia a dia.Escolha o melhor tênis infantil, que une estilo, praticidade e conforto, perfeito para todas as aventuras diárias.",
-      "href": "/products/29",
       "bannerImg": "/prod31/prod1.webp",
       "images": [
         "/prod31/prod1.webp",
         "/prod31/prod2.webp",
         "/prod31/prod3.webp"   
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Tenis",
       "sections": []
     },
     {
-      "id": 30,
-      "title": "Tênis Infantil Bibi Roller 2.0 Preto com Rosa 1155286",
-      "rate": 96,
-      "price": "209,90",
-      "parcelamento": "3x de R$ 63,30",
-      "tipo": "numero",
-      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
-      "desc": "Descubra o tênis infantil feminino perfeito para as brincadeiras do dia a dia!Nosso modelo na cor preto com rosa, apresenta um design moderno, ideal para acompanhar as crianças em todas as suas aventuras. Confeccionado em elastano, um material respirável e de fácil limpeza. O fechamento em tira oferece um ajuste excelente ao pé, garantindo conforto durante todo o uso.O solado inovador com rolamentos segue os movimentos do pé, oferecendo um design ainda mais atual e criativo.Possui a palmilha Fisioflex, que é macia e proporciona a sensação de andar descalço, assegurando conforto extremo para as pequenas.Este tênis é a escolha ideal para pais que buscam qualidade, conforto e um visual moderno para suas pequenas.",
-      "href": "/products/30",
-      "bannerImg": "/prod32/prod1.webp",
-      "images": [
-        "/prod32/prod1.webp",
-        "/prod32/prod2.webp",
-        "/prod32/prod3.webp"     
-      ],
-      "category": "menina",
-      "subcategory": "Tenis",
-      "sections": []
-    },
-    {
-      "id": 31,
+      "id": 26,
       "title": "Tênis Infantil Bibi Roller 2.0 Preto com Rosa de Coração 1155289",
       "rate": 96,
       "price": "179,90",
@@ -693,20 +541,19 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "O tênis infantil feminino Bibi Roller 2.0 é o companheiro perfeito para as grandes aventuras do dia a dia.Confeccionado em elastano, este tênis oferece facilidade no calce e um ajuste ideal aos pezinhos, com detalhes em frequência que proporcionam um extremo conforto. Seu solado segue com rolamentos que acompanham os movimentos naturais dos pés, em um design moderno e criativo, ideal para as brincadeiras e atividades escolares. Equipado com a palmilha Fisioflex, que proporciona uma sensação fofinha e similar a caminhar descalço, este tênis promove o desenvolvimento natural dos pés das crianças.O tênis para as meninas Bibi Roller 2.0 é a escolha perfeita para unir conforto, estilo e durabilidade nos passos das pequenas aventureiras! Garanta agora este tênis incrível e proporcione as meninas toda a qualidade e conforto que eles merecem!",
-      "href": "/products/31",
-      "bannerImg": "/prod34/prod1.webp",
+      "bannerImg": "/prod33/prod1.webp",
       "images": [
-        "/prod34/prod1.webp",
-        "/prod34/prod2.webp",
-        "/prod34/prod3.webp",
-        "/prod34/prod4.webp"   
+        "/prod33/prod1.webp",
+        "/prod33/prod2.webp",
+        "/prod33/prod3.webp",
+        "/prod33/prod4.webp"   
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Tenis",
       "sections": []
     },
     {
-      "id": 32,
+      "id": 27,
       "title": "Tênis Infantil de Luz Bibi Space Rosa de Gatinho 1228078",
       "rate": 96,
       "price": "209,90",
@@ -714,39 +561,17 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "Descubra o tênis infantil feminino perfeito para todas as ocasiões, especialmente para as aventuras diárias das meninas!Confeccionado em elastano, este modelo é fácil de calçar e se ajusta perfeitamente ao pé, garantindo conforto e praticidade.O design moderno é realçado por uma estampa divertida de gatinho fofinho, trazendo um toque de ludicidade e diversão ao look das pequenas.Além disso, o solado conta com luzes multicoloridas que piscam a cada passo, encantando as crianças.A palmilha Fisioflex proporciona uma sensação de andar descalço, oferecendo maciez e conforto incomparáveis.Aposte neste tênis feminino para proporcionar estilo e alegria em todas as ocasiões!",
-      "href": "/products/32",
-      "bannerImg": "/prod33/prod1.webp",
+      "bannerImg": "/prod34/prod1.webp",
       "images": [
-        "/prod33/prod1.webp",
-        "/prod33/prod2.webp",
-        "/prod33/prod3.webp"      ],
-      "category": "menina",
+        "/prod34/prod1.webp",
+        "/prod34/prod2.webp",
+        "/prod34/prod3.webp"      ],
+      "category": "Meninas",
       "subcategory": "Tenis",
       "sections": []
     },
     {
-      "id": 33,
-      "title": "Tênis Infantil Bibi Evolution II Preto com Rosa",
-      "rate": 96,
-      "price": "289,90",
-      "parcelamento": "3x de R$ 63,30",
-      "tipo": "numero",
-      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
-      "desc": "Descubra o tênis esportivo infantil feminino Evolution ll!Perfeito para qualquer ocasião, desde o dia a dia até os passeios divertidos, com um design moderno e estiloso.Confeccionado em elastano, este tênis oferece fechamento em tira e acolchoamento traseiro para maior conforto.O solado de EVA mesclado incorpora a tecnologia BPLUS, proporcionando mais tração e conforto graças ao toque macio e emborrachado.A palmilha Fisioflex Dry é extremamente confortável, oferecendo a sensação de andar descalço.Escolha este tênis infantil esportivo para unir estilo, conforto e praticidade em um só calçado!",
-      "href": "/products/33",
-      "bannerImg": "/prod35/prod1.webp",
-      "images": [
-        "/prod35/prod1.webp",
-        "/prod35/prod2.webp",
-        "/prod35/prod3.webp",
-        "/prod35/prod4.webp"
-      ],
-      "category": "menina",
-      "subcategory": "Tenis",
-      "sections": []
-    },
-    {
-      "id": 34,
+      "id": 28,
       "title": "Tênis Infantil de Luz Bibi Space Preto com Rosa de Estrela",
       "rate": 96,
       "price": "219,90",
@@ -754,7 +579,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "Descubra o tênis infantil feminino perfeito para todas as ocasiões, especialmente para as aventuras diárias das meninas!Este calçado é fácil de calçar e oferece um ajuste perfeito ao pé, graças à sua confecção em elastano e ao fechamento em tira no formato de estrela, que proporciona facilidade no uso e um toque lúdico.O solado com luzes multicoloridas que piscam a cada passo adiciona um design super moderno. Além disso, conta com a palmilha Fisioflex, macia como andar descalço.Aposte neste tênis feminino para proporcionar estilo e alegria em todas as ocasiões!",
-      "href": "/products/34",
       "bannerImg": "/prod36/prod1.webp",
       "images": [
         "/prod36/prod1.webp",
@@ -762,12 +586,12 @@
         "/prod36/prod3.webp",
         "/prod36/prod4.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Tenis",
       "sections": []
     },
     {
-      "id": 35,
+      "id": 29,
       "title": "Bota Infantil Bibi Roller 2.0 Drop Rosa",
       "rate": 96,
       "price": "289,90",
@@ -775,7 +599,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A bota infantil feminina Bibi Roller 2.0 é a escolha perfeita para as maiores aventuras do dia a dia. Este modelo estilo botinha, em dois elegantes tons de rosa, é projetado para garantir conforto e resistência durante as jornadas das crianças. Confeccionada em tecido nylon com tecnologia DROP, oferece proteção contra a água, mantendo os pezinhos secos enquanto permite a transpiração. As camadas de espuma aplicadas no nylon proporcionam máximo conforto a cada passo, enquanto a biqueira em material sintético reforça a durabilidade. Seu solado, com rolamentos que seguem os movimentos naturais dos pés, possui um design atual e criativo, garantindo segurança e estabilidade nas brincadeiras. Equipada com a palmilha Fisioflex, oferece uma sensação fofinha e similar a caminhar descalço, promovendo o desenvolvimento natural dos pezinhos das crianças. Adquira agora a bota infantil Bibi Roller 2.0 e proporcione às meninas toda a qualidade e conforto que eles merecem em suas maiores aventuras!",
-      "href": "/products/35",
       "bannerImg": "/prod37/prod1.webp",
       "images": [
         "/prod37/prod1.webp",
@@ -783,12 +606,12 @@
         "/prod37/prod3.webp",
         "/prod37/prod4.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 36,
+      "id": 30,
       "title": "Bota Infantil Bibi Urban Basic Marrom com Brilho",
       "rate": 96,
       "price": "144,90",
@@ -796,17 +619,16 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A bota infantil feminina da linha Bibi Urban Basic é uma botinha adorável, projetada para combinar perfeitamente com todos os looks, proporcionando facilidade de calce, ideal para todas as ocasiões. O conforto é garantido, proporcionando uma experiência agradável para os pés das meninas. A palmilha Fisioflex oferece um conforto excepcional, proporcionando a sensação de caminhar descalço, mantendo os pezinhos confortáveis durante todo o dia. A bota infantil feminina Bibi Urban Basic não é apenas um calçado, é um companheiro perfeito para as pequenas aventureiras explorarem o mundo com estilo e conforto. Adquira agora esta encantadora bota e proporcione às pequenas aventuras cheias de conforto e estilo!",
-      "href": "/products/36",
       "bannerImg": "/prod38/prod1.webp",
       "images": [
         "/prod38/prod1.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 37,
+      "id": 31,
       "title": "Bota Infantil Bibi Urban Basic Preta com Brilho",
       "rate": 96,
       "price": "144,90",
@@ -814,17 +636,16 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A bota infantil feminina da linha Bibi Urban Basic é uma botinha adorável, projetada para combinar perfeitamente com todos os looks, proporcionando facilidade de calce, ideal para todas as ocasiões. O conforto é garantido, proporcionando uma experiência agradável para os pés das meninas. A palmilha Fisioflex oferece um conforto excepcional, proporcionando a sensação de caminhar descalço, mantendo os pezinhos confortáveis durante todo o dia. A bota infantil feminina Bibi Urban Basic não é apenas um calçado, é um companheiro perfeito para as pequenas aventureiras explorarem o mundo com estilo e conforto. Adquira agora esta encantadora bota e proporcione às pequenas aventuras cheias de conforto e estilo!",
-      "href": "/products/37",
       "bannerImg": "/prod39/prod1.webp",
       "images": [
         "/prod39/prod1.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 38,
+      "id": 32,
       "title": "Bota Infantil Cano Longo Bibi Urban Basic Drop Rosa",
       "rate": 96,
       "price": "299,90",
@@ -832,7 +653,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A bota infantil feminina da linha Bibi Urban Basic é uma galocha moderna na cor rosa, com um design casual de cano longo e solado reto, ideal para todas as ocasiões. Essas botinhas são muito práticas, fáceis de calçar e extremamente confortáveis, além de proporcionarem um visual moderno e básico que se adapta a diferentes momentos. Confeccionadas em tecido nylon com a tecnologia DROP, que repele a água mantendo os pés secos, mas permite a saída do suor, oferecendo um forro de pelo que mantém os pezinhos superaquecidos. A biqueira em couro verniz garante durabilidade e resistência ao calçado. A palmilha Fisioflex proporciona um conforto excepcional, assemelhando-se à sensação de caminhar descalço, enquanto apoia os pezinhos em crescimento. A bota infantil feminina Bibi Urban Basic é perfeita para os dias chuvosos, passeios ao ar livre ou para compor looks modernos e descolados, unindo praticidade, conforto e estilo para as pequenas fashionistas.",
-      "href": "/products/38",
       "bannerImg": "/prod40/prod1.webp",
       "images": [
         "/prod40/prod1.webp",
@@ -840,12 +660,12 @@
         "/prod40/prod3.webp",
         "/prod40/prod4.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 39,
+      "id": 33,
       "title": "Bota Infantil Cano Longo Bibi Urban Basic Drop Preta",
       "rate": 96,
       "price": "299,90",
@@ -853,7 +673,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A bota infantil feminina da linha Bibi Urban Basic é uma galocha moderna na cor preta, com um design casual de cano longo e solado reto, ideal para todas as ocasiões. Essas botinhas são muito práticas, fáceis de calçar e extremamente confortáveis, além de proporcionarem um visual moderno e básico que se adapta a diferentes momentos. Confeccionadas em tecido nylon com a tecnologia DROP, que repele a água mantendo os pés secos, mas permite a saída do suor, oferecendo um forro de pelo que mantém os pezinhos superaquecidos. A biqueira em couro verniz garante durabilidade e resistência ao calçado. A palmilha Fisioflex proporciona um conforto excepcional, assemelhando-se à sensação de caminhar descalço, enquanto apoia os pezinhos em crescimento. A bota infantil feminina Bibi Urban Basic é perfeita para os dias chuvosos, passeios ao ar livre ou para compor looks modernos e descolados, unindo praticidade, conforto e estilo para as pequenas fashionistas.",
-      "href": "/products/39",
       "bannerImg": "/prod41/prod1.webp",
       "images": [
         "/prod41/prod1.webp",
@@ -861,12 +680,12 @@
         "/prod41/prod3.webp",
         "/prod41/prod4.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 40,
+      "id": 34,
       "title": "Bota Infantil Bibi Urban Basic Drop Preta",
       "rate": 96,
       "price": "259,90",
@@ -874,7 +693,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A bota infantil feminina da linha Bibi Urban Basic é uma botinha versátil na cor preta, ideal para complementar diversos looks, oferecendo facilidade no calce graças ao ajuste com tiras, perfeita para todas as ocasiões. Confeccionada em tecido nylon com tecnologia DROP, este calçado repele a água, mantendo os pés secos, enquanto permite a saída do suor, garantindo conforto durante o uso. As camadas de espuma aplicadas no nylon oferecem um conforto extra, enquanto a biqueira em material sintético confere resistência ao calçado. A palmilha Fisioflex proporciona uma sensação fofinha e é comparável a andar descalço, oferecendo suporte e conforto para os pequenos pés em crescimento. Este modelo de botinha cano médio é um convite para as aventuras diárias das meninas, unindo conforto, resistência e estilo em cada passo. Adquira agora a bota infantil feminina Bibi Urban Basic e proporcione aos pequenos uma jornada repleta de conforto e estilo em cada passo!",
-      "href": "/products/40",
       "bannerImg": "/prod42/prod1.webp",
       "images": [
         "/prod42/prod1.webp",
@@ -882,12 +700,12 @@
         "/prod42/prod3.webp",
         "/prod42/prod4.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 41,
+      "id": 35,
       "title": "Bota Infantil Cano Longo Bibi Urban Kids Drop Azul",
       "rate": 96,
       "price": "329,90",
@@ -895,7 +713,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A bota infantil feminina da linha Bibi Urban Kids é uma galocha na cor azul com um detalhe superdelicado de corações no cano, oferecendo um design casual e moderno para as pequenas. Estas botinhas são extremamente práticas e fáceis de calçar, proporcionando conforto excepcional. Elas são modernas, básicas e ideais para todas as ocasiões, agregando um toque de estilo a cada passo. Confeccionadas em tecido nylon com tecnologia DROP, esta galocha repele a água para manter os pés secos, permitindo a saída do suor, garantindo assim o conforto necessário. Seu forro de pelo mantém os pezinhos super quentinhos, e a biqueira em couro verniz proporciona resistência e durabilidade. A palmilha Fisioflex oferece um conforto incomparável, proporcionando a sensação de andar descalço, permitindo que os pequenos aproveitem cada passo com leveza e suavidade. A bota infantil feminina de cano longo Bibi Urban Kids não é apenas um calçado, é um aliado perfeito para manter os pezinhos das meninas confortáveis e estilosos, mesmo nos dias chuvosos!",
-      "href": "/products/41",
       "bannerImg": "/prod43/prod1.webp",
       "images": [
         "/prod43/prod1.webp",
@@ -904,12 +721,12 @@
         "/prod43/prod4.webp",
         "/prod43/prod5.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 42,
+      "id": 36,
       "title": "Bota Infantil Cano Longo Bibi Urban Kids Drop Rosa",
       "rate": 96,
       "price": "329,90",
@@ -917,7 +734,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A bota infantil feminina da linha Bibi Urban Kids é uma galocha na cor rosa matte com um detalhe superdelicado de corações no cano, oferecendo um design casual e moderno para as pequenas. Estas botinhas são extremamente práticas e fáceis de calçar, proporcionando conforto excepcional. Elas são modernas, básicas e ideais para todas as ocasiões, agregando um toque de estilo a cada passo. Confeccionadas em tecido nylon com tecnologia DROP, esta galocha repele a água para manter os pés secos, permitindo a saída do suor, garantindo assim o conforto necessário. Seu forro de pelo mantém os pezinhos super quentinhos, e a biqueira em couro verniz proporciona resistência e durabilidade. A palmilha Fisioflex oferece um conforto incomparável, proporcionando a sensação de andar descalço, permitindo que os pequenos aproveitem cada passo com leveza e suavidade. A bota infantil feminina de cano longo Bibi Urban Kids não é apenas um calçado, é um aliado perfeito para manter os pezinhos das meninas confortáveis e estilosos, mesmo nos dias chuvosos!",
-      "href": "/products/42",
       "bannerImg": "/prod44/prod1.webp",
       "images": [
         "/prod44/prod1.webp",
@@ -926,12 +742,12 @@
         "/prod44/prod4.webp",
         "/prod44/prod5.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 43,
+      "id": 37,
       "title": "Bota Infantil Cano Médio Bibi Urban Kids Drop Rosa",
       "rate": 96,
       "price": "174,90",
@@ -939,7 +755,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A bota infantil feminina da linha Bibi Urban Kids apresenta um design casual, com cano curto e solado reto na adorável cor rosa matte. Esta bota é extremamente prática e fácil de calçar, sendo perfeita para todas as ocasiões. Confeccionada em tecido nylon com tecnologia Drop, que repele a água mantendo os pés secos, mas permite a saída do suor, oferecendo conforto ao longo do dia. Com camadas de espuma aplicadas no nylon, proporciona um ajuste suave e resistência, especialmente com a biqueira em material sintético. Os detalhes supermodernos do atacador e do pelo agregam charme adicional a esta bota, tornando-a não apenas um calçado prático, mas também um acessório de estilo para as meninas. A palmilha Fisioflex oferece um conforto incomparável, assemelhando-se à sensação de andar descalço, fornecendo o suporte necessário para os pezinhos em crescimento. A botinha infantil feminina com cano médio Bibi Urban Kids é a escolha ideal para proporcionar conforto, estilo e praticidade para as aventuras diárias das crianças.",
-      "href": "/products/43",
       "bannerImg": "/prod45/prod1.webp",
       "images": [
         "/prod45/prod1.webp",
@@ -948,12 +763,12 @@
         "/prod45/prod4.webp",
         "/prod45/prod5.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 44,
+      "id": 38,
       "title": "Bota Infantil Cano Médio Bibi Urban Kids Bege",
       "rate": 96,
       "price": "199,90",
@@ -961,7 +776,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "A bota infantil feminina da linha Bibi Urban Kids é um charmoso coturno de cano médio, apresentando um design casual e versátil, com solado reto e na cor bege. Prática e fácil de calçar, esta botinha oferece conforto e modernidade, sendo perfeita para diversas ocasiões. Confeccionada em couro, possui forro em nylon para uma sensação de conforto durante o uso. Com abertura em fecho de correr no lado interno e cadarço na frente, proporciona um ajuste personalizado e um calce perfeito para os pezinhos. A palmilha Fisioflex oferece um conforto excepcional, assemelhando-se à sensação de caminhar descalço, mantendo os confortáveis. A bota infantil feminina Bibi Urban Kids é mais que um calçado, é um complemento encantador para o estilo das meninas, garantindo conforto e elegância em todos os momentos. Adquira agora esta bota coturno e proporcione às pequenas toda a confiança e estilo que elas merecem!",
-      "href": "/products/44",
       "bannerImg": "/prod46/prod1.webp",
       "images": [
         "/prod46/prod1.webp",
@@ -969,12 +783,12 @@
         "/prod46/prod3.webp",
         "/prod46/prod4.webp"
       ],
-      "category": "menina",
+      "category": "Meninas",
       "subcategory": "Botas",
       "sections": []
     },
     {
-      "id": 3,
+      "id": 39,
       "stock" : 1,
       "title": "Tênis Infantil Bibi Afeto Joy II Branco e Azul com Tira ",
       "rate": 54,
@@ -983,7 +797,6 @@
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
       "desc": "O tênis infantil masculino Bibi Afeto Joy II é um calçado versátil para bebês, ideal para todas as ocasiões. Completamente confeccionado em couro, este tênis oferece proteção e conforto aos pezinhos dos pequenos, enquanto o fechamento em tira facilita o calce e permite o desenvolvimento natural dos pés. O forro em nylon proporciona um toque suave, mantendo os pés frescos e confortáveis durante todo o dia. A palmilha Fisioflex de couro adiciona uma camada de maciez e conforto, proporcionando uma sensação de caminhar descalço, permitindo que os bebês explorem o mundo de maneira confortável e segura. O tênis infantil masculino Bibi Afeto Joy II é a combinação perfeita de estilo, conforto e qualidade para os primeiros passos dos pequenos.",
-      "href": "/products/3",
       "bannerImg": "/prod3/prod1.webp",
       "images": [
         "/prod3/prod1.webp"
