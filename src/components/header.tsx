@@ -6,6 +6,7 @@ import Logo from '../../public/logo.svg'
 import { List, MagnifyingGlass, X, CaretRight, CaretDown } from 'phosphor-react'
 import Link from 'next/link'
 import { products } from '../pages/products/products.json'
+import { useRouter } from 'next/router'
 
 interface CategoriesProps {
   title: string
@@ -16,6 +17,7 @@ export function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null)
   const [categories, setCategories] = useState<CategoriesProps[]>([])
+  const router = useRouter()
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen)
@@ -56,6 +58,18 @@ export function Header() {
 
     setCategories(categoriesWithSubcategories)
   }, [])
+
+  useEffect(() => {
+    const handleRouteChange = () => {
+      setIsSidebarOpen(false)
+    }
+
+    router.events.on('routeChangeComplete', handleRouteChange)
+
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
 
   return (
     <div className="w-full h-[118px]">
