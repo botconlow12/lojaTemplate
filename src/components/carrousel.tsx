@@ -92,7 +92,7 @@ export function Carroussel4() {
           src={Im1}
           quality={100}
         />
-        <a
+        <p
           style={{
             position: 'absolute',
             left: '50%',
@@ -103,7 +103,7 @@ export function Carroussel4() {
           className="text-sm text-[#353a42] py-1 px-6 bg-white"
         >
           Tênis
-        </a>
+        </p>
       </Link>
 
       <Link
@@ -116,7 +116,7 @@ export function Carroussel4() {
           src={Im2}
           quality={100}
         />
-        <a
+        <p
           style={{
             position: 'absolute',
             left: '50%',
@@ -127,7 +127,7 @@ export function Carroussel4() {
           className="text-sm text-[#353a42] py-1 px-6 bg-white"
         >
           Sandálias
-        </a>
+        </p>
       </Link>
 
       <Link href="/categoria/meninos/chinelos" className="w-full relative pr-3">
@@ -137,7 +137,7 @@ export function Carroussel4() {
           src={Im3}
           quality={100}
         />
-        <a
+        <p
           style={{
             position: 'absolute',
             left: '50%',
@@ -148,7 +148,7 @@ export function Carroussel4() {
           className="text-sm text-[#353a42] py-1 px-6 bg-white"
         >
           Chinelos
-        </a>
+        </p>
       </Link>
 
       <Link href="/categoria/meninos/botas" className="w-full relative pr-3">
@@ -158,7 +158,7 @@ export function Carroussel4() {
           src={Im4}
           quality={100}
         />
-        <a
+        <p
           style={{
             position: 'absolute',
             left: '50%',
@@ -169,7 +169,7 @@ export function Carroussel4() {
           className="text-sm text-[#353a42] py-1 px-6 bg-white"
         >
           Botas
-        </a>
+        </p>
       </Link>
     </Slider>
   )

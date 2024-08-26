@@ -21,29 +21,6 @@
       "sections": ["Lançamentos"]
     },
     {
-      "id": 2,
-      "title": "Tênis Meia Infantil Bibi Afeto Joy II Azul Marinho do Mickey",
-      "rate": 72,
-      "price": "179,90",
-      "parcelamento": "3x de R$ 63,30",
-      "tipo": "numero",
-      "opcoes": ["14/15", "16", "17", "18", "19"],
-      "desc": "A mágica do universo Disney se encontra com o conforto e a qualidade dos calçados infantis da Bibi e promete encantar as crianças e os pais!Apresentamos o icônico Mickey Mouse.O tênis meia infantil masculino Afeto Joy ll é confeccionado com materiais de alta qualidade. Com sua biqueira em couro, garante durabilidade e conforto para os pezinhos. Confeccionado em elastano e com fechamento em tira, é fácil de calçar e proporciona um ajuste ideal, garantindo que os pezinhos fiquem protegidos e se desenvolvam naturalmente.Além disso, sua modelagem é cuidadosamente elaborada para garantir o máximo conforto.As orelhinhas do Mickey trazem um toque de diversão e encanto, tornando este tênis o preferido das mamães e dos bebês. Essa é a escolha perfeita para todas que adoram o universo Disney.Garanta já o tênis infantil e faça parte dessa mágica parceria entre Bibi e Disney!",
-      "bannerImg": "/prod4/prod1.webp",
-      "images": [
-        "/prod4/prod1.webp",
-        "/prod4/prod2.webp",
-        "/prod4/prod3.webp",
-        "/prod4/prod4.webp",
-        "/prod4/prod5.webp",
-        "/prod4/prod6.webp",
-        "/prod4/prod7.webp"
-      ],
-      "category": "Bebes",
-      "subcategory": "Tenis",
-      "sections": ["Lançamentos"]
-    },
-    {
       "id": 3,
       "title": "Tênis Infantil de Luz Bibi Roller Celebration 2.0 Azul Marinho do Mickey",
       "rate": 72,
@@ -789,10 +766,74 @@
     },
     {
       "id": 39,
+      "title": "Sapatilha Infantil Bibi Ballerina Basic Bege",
+      "rate": 96,
+      "price": "259,90",
+      "parcelamento": "3x de R$ 63,30",
+      "tipo": "numero",
+      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33"],
+      "desc": "Nosso modelo especial de sapatilha infantil feminina é a escolha perfeita para todas as meninas que amam andar com estilo!Combinando elegância e versatilidade para todas as ocasiões, especialmente passeios e festinhas. Com um design clássico e moderno, este calçado é confeccionado em couro de alta qualidade, garantindo durabilidade e estilo.O acolchoamento no traseiro proporciona máximo conforto, enquanto o laço sofisticado adiciona um toque de autenticidade ao visual.Deixe sua pequena brilhar com esta sapatilha feminina única e encantadora, que se destaca por seu conforto e design impecável.",
+      "bannerImg": "/prod10/prod1.webp",
+      "images": [
+        "/prod10/prod1.webp",
+        "/prod10/prod2.webp",
+        "/prod10/prod3.webp",
+        "/prod10/prod4.webp"
+      ],
+      "category": "Meninas",
+      "subcategory": "Sapatilhas",
+      "sections": []
+    },
+    {
+      "id": 40,
+      "title": "Sapatilha Infantil Bibi Ballerina Basic Branca com Laço",
+      "rate": 96,
+      "price": "259,90",
+      "parcelamento": "3x de R$ 63,30",
+      "tipo": "numero",
+      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33"],
+      "desc": "Nosso modelo especial de sapatilha infantil feminina é a escolha perfeita para todas as meninas que amam andar com estilo!Combinando elegância e versatilidade para todas as ocasiões, especialmente passeios e festinhas. Com um design clássico e moderno, este calçado é confeccionado em couro de alta qualidade, garantindo durabilidade e estilo.O acolchoamento no traseiro proporciona máximo conforto, enquanto o laço sofisticado adiciona um toque de autenticidade ao visual.Deixe sua pequena brilhar com esta sapatilha feminina única e encantadora, que se destaca por seu conforto e design impecável.",
+      "bannerImg": "/prod11/prod1.webp",
+      "images": [
+        "/prod11/prod1.webp",
+        "/prod11/prod2.webp",
+        "/prod11/prod3.webp",
+        "/prod11/prod4.webp"
+      ],
+      "category": "Meninas",
+      "subcategory": "Sapatilhas",
+      "sections": []
+    },
+    {
+      "id": 41,
+      "title": "Sapatilha Infantil Bibi Ballerina Basic Dourada",
+      "rate": 96,
+      "price": "259,90",
+      "parcelamento": "3x de R$ 63,30",
+      "tipo": "numero",
+      "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33"],
+      "desc": "Nosso modelo especial de sapatilha infantil feminina é a escolha perfeita para todas as meninas que amam andar com estilo!Combinando elegância e versatilidade para todas as ocasiões, especialmente passeios e festinhas. Com um design clássico e moderno, este calçado é confeccionado em couro de alta qualidade, garantindo durabilidade e estilo.O acolchoamento no traseiro proporciona máximo conforto, enquanto o laço sofisticado adiciona um toque de autenticidade ao visual.Deixe sua pequena brilhar com esta sapatilha feminina única e encantadora, que se destaca por seu conforto e design impecável.",
+      "bannerImg": "/prod11/prod1.webp",
+      "images": [
+        "/prod11/prod1.webp",
+        "/prod11/prod2.webp",
+        "/prod11/prod3.webp",
+        "/prod11/prod4.webp"
+      ],
+      "category": "Meninas",
+      "subcategory": "Sapatilhas",
+      "sections": []
+    },
+
+
+
+
+    {
+      "id": 101,
       "stock" : 1,
       "title": "Tênis Infantil Bibi Afeto Joy II Branco e Azul com Tira ",
       "rate": 54,
-      "price": "12,90",
+      "price": "209,90",
       "parcelamento": "3x de R$ 63,30",
       "tipo": "numero",
       "opcoes": ["22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
@@ -804,6 +845,29 @@
       "category": "Bebes",
       "subcategory": "Tenis",
       "sections": []
+    },
+    {
+      "id": 102,
+      "title": "Tênis Meia Infantil Bibi Afeto Joy II Azul Marinho do Mickey",
+      "rate": 72,
+      "price": "179,90",
+      "parcelamento": "3x de R$ 63,30",
+      "tipo": "numero",
+      "opcoes": ["14/15", "16", "17", "18", "19"],
+      "desc": "A mágica do universo Disney se encontra com o conforto e a qualidade dos calçados infantis da Bibi e promete encantar as crianças e os pais!Apresentamos o icônico Mickey Mouse.O tênis meia infantil masculino Afeto Joy ll é confeccionado com materiais de alta qualidade. Com sua biqueira em couro, garante durabilidade e conforto para os pezinhos. Confeccionado em elastano e com fechamento em tira, é fácil de calçar e proporciona um ajuste ideal, garantindo que os pezinhos fiquem protegidos e se desenvolvam naturalmente.Além disso, sua modelagem é cuidadosamente elaborada para garantir o máximo conforto.As orelhinhas do Mickey trazem um toque de diversão e encanto, tornando este tênis o preferido das mamães e dos bebês. Essa é a escolha perfeita para todas que adoram o universo Disney.Garanta já o tênis infantil e faça parte dessa mágica parceria entre Bibi e Disney!",
+      "bannerImg": "/prod4/prod1.webp",
+      "images": [
+        "/prod4/prod1.webp",
+        "/prod4/prod2.webp",
+        "/prod4/prod3.webp",
+        "/prod4/prod4.webp",
+        "/prod4/prod5.webp",
+        "/prod4/prod6.webp",
+        "/prod4/prod7.webp"
+      ],
+      "category": "Bebes",
+      "subcategory": "Tenis",
+      "sections": ["Lançamentos"]
     }
   ]
 }

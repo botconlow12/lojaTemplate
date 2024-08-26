@@ -8,7 +8,7 @@ import productsData from './products.json'
 import Footer from '@/components/footer'
 import { Header } from '@/components/header'
 // import CartSidebar from '@/components/CartSidebar'
-import { CreditCard, Star } from 'phosphor-react'
+import { Star } from 'phosphor-react'
 import Svg1 from '../../../public/svg1.svg'
 import Svg2 from '../../../public/svg2.svg'
 import Svg3 from '../../../public/svg3.svg'
@@ -22,6 +22,7 @@ import Svg10 from '../../../public/svg10.svg'
 import Svg11 from '../../../public/svg11.svg'
 import Svg12 from '../../../public/svg12.svg'
 import Svg13 from '../../../public/svg13.svg'
+import Pix from '../../../public/pix.svg'
 import Im6 from '../../../public/im6.webp'
 import Im7 from '../../../public/im7.webp'
 import Im8 from '../../../public/im8.webp'
@@ -247,7 +248,7 @@ export default function ProductPage() {
             className="w-full flex justify-center items-center gap-3 p-5 bg-[#64c45b] text-white rounded-lg shadow-xl"
           >
             <h1 className="text-xl font-bold">Comprar</h1>
-            <CreditCard size={32} color="#fff" />
+            <Image alt="pix" src={Pix} quality={100} width={22} />
           </a>
 
           <div className="w-full flex flex-col items-center">

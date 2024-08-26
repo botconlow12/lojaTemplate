@@ -3,14 +3,7 @@
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Logo from '../../public/logo.svg'
-import {
-  List,
-  MagnifyingGlass,
-  ToteSimple,
-  X,
-  CaretRight,
-  CaretDown,
-} from 'phosphor-react'
+import { List, MagnifyingGlass, X, CaretRight, CaretDown } from 'phosphor-react'
 import Link from 'next/link'
 import { products } from '../pages/products/products.json'
 
@@ -84,9 +77,6 @@ export function Header() {
           </Link>
           <div className="flex gap-4">
             <MagnifyingGlass size={26} weight="light" />
-            <Link href="/carrinho">
-              <ToteSimple size={26} weight="light" color="#000" />
-            </Link>
             <button onClick={toggleSidebar}>
               <List size={26} weight="light" />
             </button>
