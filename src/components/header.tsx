@@ -74,7 +74,7 @@ export function Header() {
   return (
     <div className="w-full h-[118px]">
       <div className="w-full fixed top-0 z-30 shadow-xl">
-        <div className="w-full py-3 text-xs bg-[#ec6608] text-white">
+        <div className="w-full py-3 text-xs text-center bg-[#ec6608] text-white">
           <p>
             Ganhe até <u>80% OFF</u> na primeira compra!
           </p>
