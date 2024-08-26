@@ -19,7 +19,7 @@ export default function Document() {
                 j.async=true;
                 j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
                 f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-WD62MGGN');
+              })(window,document,'script','dataLayer','GTM-WMFQ9FHQ');
             `,
           }}
         />
@@ -27,7 +27,7 @@ export default function Document() {
       <body>
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-WD62MGGN"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-WMFQ9FHQ"
             height="0"
             width="0"
             style={{
