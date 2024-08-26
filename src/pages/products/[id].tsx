@@ -70,7 +70,7 @@ export default function ProductPage() {
     }
 
     // Lógica para redirecionar para o checkout, por exemplo:
-    router.push('/checkout') // Ajuste o caminho para o checkout conforme necessário
+    router.push(productData.link) // Ajuste o caminho para o checkout conforme necessário
   }
 
   const toggleDescription = () => {
