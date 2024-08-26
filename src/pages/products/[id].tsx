@@ -1,10 +1,10 @@
 import { Poppins } from 'next/font/google'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import Head from 'next/head'
 import Slider from 'react-slick'
-import productsData from './products.json'
+import { products } from './products.json'
 import Footer from '@/components/footer'
 import { Header } from '@/components/header'
 // import CartSidebar from '@/components/CartSidebar'
@@ -27,6 +27,7 @@ import Im6 from '../../../public/im6.webp'
 import Im7 from '../../../public/im7.webp'
 import Im8 from '../../../public/im8.webp'
 import Gif from '../../../public/gif4.gif'
+import Link from 'next/link'
 
 const poppins = Poppins({
   weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
@@ -37,14 +38,20 @@ export default function ProductPage() {
   const [isExpanded, setIsExpanded] = useState(false)
   const router = useRouter()
   const { id } = router.query
-  // const { addToCart } = useCart()
-  // const [sidebarOpen, setSidebarOpen] = useState(false)
-  const [selectedOption, setSelectedOption] = useState<string | null>(null)
-
   // Encontre o produto com base no ID da URL
-  const productData = productsData.products.find(
+  const productData = products.find(
     (product) => product.id === parseInt(id as string),
   )
+
+  // const { addToCart } = useCart()
+  // const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [selectedOption, setSelectedOption] = useState('')
+
+  useEffect(() => {
+    if (productData) {
+      setSelectedOption(productData.opcoes[0])
+    }
+  }, [productData])
 
   if (!productData) {
     return <p>Vídeo não encontrado</p>
@@ -64,19 +71,6 @@ export default function ProductPage() {
   //   })
   //   setSidebarOpen(true) // Abre o sidebar ao adicionar ao carrinho
   // }
-
-  // Função para redirecionar para o link do checkout
-  const handleCheckout = () => {
-    if (!selectedOption) {
-      alert('Selecione um tamanho antes de continuar')
-      return
-    }
-
-    // Certifique-se de que o link está correto
-    console.log('Redirecionando para:', productData.link)
-
-    window.open(productData.link, '_blank') // Abre o link em uma nova aba
-  }
 
   const toggleDescription = () => {
     setIsExpanded(!isExpanded)
@@ -248,13 +242,12 @@ export default function ProductPage() {
             </h1>
             {renderOpcoes()}
           </div>
-          <a
-            onClick={handleCheckout}
-            className="w-full flex justify-center items-center gap-3 p-5 bg-[#64c45b] text-white rounded-lg shadow-xl"
-          >
-            <h1 className="text-xl font-bold">Comprar</h1>
-            <Image alt="pix" src={Pix} quality={100} width={22} />
-          </a>
+          <Link href={productData.link}>
+            <button className="w-full flex justify-center items-center gap-3 p-5 bg-[#64c45b] text-white rounded-lg shadow-xl">
+              <h1 className="text-xl font-bold">Comprar</h1>
+              <Image alt="pix" src={Pix} quality={100} width={22} />
+            </button>
+          </Link>
 
           <div className="w-full flex flex-col items-center">
             <p className="font-sans text-xl text-[#ec6608] font-bold mb-3">
