@@ -3,13 +3,6 @@ import Question from './question'
 
 const questions = [
   {
-    question:
-      'Em que ano foi fundada a marca Bibi, conhecida por oferecer calçados infantis confortáveis e inovadores?',
-    options: ['1949', '1959', '1969'],
-    answer: '1949',
-    hint: 'Foi na década de 40.',
-  },
-  {
     question: 'Qual destas ações a Bibi realiza para ajudar a natureza?',
     options: [
       'Joga fora todo o material não utilizado',
@@ -29,7 +22,7 @@ const questions = [
     question: 'Qual é a melhor maneira de limpar seus calçados bibi?',
     options: [
       'Limpar com pano úmido e sabão neutro',
-      'Passar cera de sapato',
+      'Lavar com Água Sanitária',
       'Deixar ao sol por horas',
     ],
     answer: 'Limpar com pano úmido e sabão neutro',
@@ -40,16 +33,6 @@ const questions = [
     options: ['Bebês e crianças', 'Adultos', 'Idosos'],
     answer: 'Bebês e crianças',
     hint: 'A Bibi é conhecida por criar calçados para os primeiros passos.',
-  },
-  {
-    question: 'O que a Bibi mais valoriza ao criar seus calçados?',
-    options: [
-      'Aparência acima de tudo',
-      'Conforto e segurança para as crianças',
-      'Moda para adultos',
-    ],
-    answer: 'Conforto e segurança para as crianças',
-    hint: 'A prioridade é sempre o bem-estar dos pequenos.',
   },
 ]
 
