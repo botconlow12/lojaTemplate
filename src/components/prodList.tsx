@@ -92,6 +92,9 @@ export function ProdList({ category, section }: ProdListProps) {
                 width={640}
                 height={640}
               />
+              <p className="absolute left-3 top-3 text-xs font-bold text-white bg-brown p-[5px] rounded-lg">
+                -{Math.round(discountPercentage)}%
+              </p>
               <div
                 className="absolute right-2 top-2 p-1 rounded-full bg-[#f7f7f7] z-20 cursor-pointer"
                 onClick={() => toggleHeart(product.id)}
@@ -122,18 +125,13 @@ export function ProdList({ category, section }: ProdListProps) {
                   {/* Preço original */}
                 </h1>
 
-                <div className="flex items-center justify-start gap-2">
-                  <h1 className="text-[#37c76c] font-medium">
-                    R$
-                    {discountPrice.toLocaleString('pt-BR', {
-                      minimumFractionDigits: 2,
-                    })}
-                    {/* Exibe o preço com desconto */}
-                  </h1>
-                  <p className="text-xs font-bold text-white bg-brown p-[5px] rounded-lg">
-                    -{Math.round(discountPercentage)}%
-                  </p>
-                </div>
+                <h1 className="text-[#37c76c] font-medium">
+                  R$
+                  {discountPrice.toLocaleString('pt-BR', {
+                    minimumFractionDigits: 2,
+                  })}
+                  {/* Exibe o preço com desconto */}
+                </h1>
               </div>
             </div>
           </Link>
@@ -231,6 +229,9 @@ export function ProdList2({ category, subcategory, section }: ProdListProps) {
                   width={640}
                   height={640}
                 />
+                <p className="absolute left-2 top-2 text-xs font-bold text-white bg-brown p-[5px] rounded-lg">
+                  -{Math.round(discountPercentage)}%
+                </p>
                 <div
                   className="absolute right-2 top-2 p-1 rounded-full bg-[#f7f7f7] z-20 cursor-pointer"
                   onClick={() => toggleHeart(product.id)}
@@ -261,18 +262,13 @@ export function ProdList2({ category, subcategory, section }: ProdListProps) {
                     {/* Preço original */}
                   </h1>
 
-                  <div className="flex items-center justify-start gap-2">
-                    <h1 className="text-[#37c76c] font-medium">
-                      R$
-                      {discountPrice.toLocaleString('pt-BR', {
-                        minimumFractionDigits: 2,
-                      })}
-                      {/* Exibe o preço com desconto */}
-                    </h1>
-                    <p className="text-xs font-bold text-white bg-brown p-[6px] rounded-lg">
-                      -{Math.round(discountPercentage)}%
-                    </p>
-                  </div>
+                  <h1 className="text-[#37c76c] font-medium">
+                    R$
+                    {discountPrice.toLocaleString('pt-BR', {
+                      minimumFractionDigits: 2,
+                    })}
+                    {/* Exibe o preço com desconto */}
+                  </h1>
                 </div>
               </div>
             </div>
