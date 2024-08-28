@@ -7,7 +7,7 @@ import Image from 'next/image'
 import {
   Carroussel,
   Carroussel3,
-  Carroussel4,
+  // Carroussel4,
   Carroussel5,
 } from '@/components/carrousel'
 import Ct1 from '../../public/ct1.webp'
@@ -130,12 +130,12 @@ export default function InitialPage() {
             <ProdList section="OS BÁSICOS PARA TODAS AS OCASIÕES!" />
           </div>
 
-          <div className="flex flex-col gap-3">
+          {/* <div className="flex flex-col gap-3">
             <h2 className="text-lg font-medium text-left">
               NAVEGUE NAS CATEGORIAS
             </h2>
             <Carroussel4 />
-          </div>
+          </div> */}
 
           <div className="flex flex-col gap-3">
             <h2 className="text-lg font-medium text-left">

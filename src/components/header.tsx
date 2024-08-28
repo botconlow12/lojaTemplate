@@ -127,12 +127,12 @@ export function Header() {
               {expandedCategory === category.title && (
                 <div className="text-left pl-4">
                   {/* Link "Tudo" direciona para a URL da categoria */}
-                  <Link
+                  {/* <Link
                     href={`/categoria/${category.title.toLowerCase()}`}
                     className="block py-1"
                   >
                     Tudo
-                  </Link>
+                  </Link> */}
                   {category.subcategories.map((subcategory) => (
                     <Link
                       href={`/categoria/${category.title.toLowerCase()}/${subcategory.toLowerCase()}`}

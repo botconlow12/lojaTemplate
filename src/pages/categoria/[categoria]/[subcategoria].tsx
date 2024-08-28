@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import { Header } from '@/components/header'
 import { ProdList2 } from '@/components/prodList'
 import Footer from '@/components/footer'
-import { Carroussel4 } from '@/components/carrousel'
+// import { Carroussel4 } from '@/components/carrousel'
 import productsData from '../../products/products.json'
 
 const poppins = Poppins({
@@ -60,7 +60,7 @@ export default function SubcategoryPage() {
       >
         <Header />
 
-        <div className="flex flex-col gap-5 w-full px-4">
+        <div className="flex flex-col gap-5 w-full px-4 mb-10">
           <h2 className="text-lg font-medium text-left uppercase">
             {subcategoria} de {categoria}
           </h2>
@@ -70,12 +70,12 @@ export default function SubcategoryPage() {
             subcategory={subcategoria as string}
           />
 
-          <div className="w-full flex flex-col gap-3">
+          {/* <div className="w-full flex flex-col gap-3">
             <h2 className="text-lg font-medium text-left">
               NAVEGUE NAS CATEGORIAS
             </h2>
             <Carroussel4 />
-          </div>
+          </div> */}
         </div>
 
         <Footer />
